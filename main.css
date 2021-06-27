@@ -1,3 +1,12 @@
+:root{
+    --dark-primary: #000000;
+    --dark-secondary: #050505;
+    --dark-secondary-alt: #080808;
+    --roundmoled-background: #142339;
+    --popout-activeborders: #1f1f1f;
+}
+
+
 /* member list background color*/
 .members-1998pB, .members-1998pB>div
 {
@@ -102,10 +111,3 @@
 }
 
 
-:root{
-    --dark-primary: #000000;
-    --dark-secondary: #050505;
-    --dark-secondary-alt: #080808;
-    --roundmoled-background: #142339;
-    --popout-activeborders: #1f1f1f;
-}
