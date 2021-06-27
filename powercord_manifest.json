@@ -1,8 +1,0 @@
-{
-    "name": "Roundmoled",
-    "version": "1.0.0",
-    "author": "malasangre#4444",
-    "description": "Simple amoled black + rounded corners theme",
-    "license": "MIT",
-    "theme": "roundmoled.theme.css",
-}
