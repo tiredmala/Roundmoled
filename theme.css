@@ -1,0 +1,12 @@
+/**
+* @name Roundmoled
+* @author Malasangre#4444d
+* @description Simple amoled black + rounded corners theme
+* @version 1.0
+*/
+
+@import url("https://rawcdn.githack.com/tiredmala/discord-css-themes/3e7cdcb6fd6db28e3485a6b7ab4ab033cf78ff5f/main.css");
+
+.platform-win .sidebar-2K8pFh{
+border-radius: 25px;
+}
