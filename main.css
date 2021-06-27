@@ -16,7 +16,7 @@
 /* server channel list */
 :root .container-3w7J-x, .sidebar-2K8pFh
 {
-    background-color: #050505;
+    background-color: var(--dark-secondary);
 }
 
 /* rounded corners in channel list and chat-member list */
@@ -28,7 +28,7 @@
 /* home page and DMs stuff */
 
 :root .peopleColumn-29fq28, .privateChannels-1nO12o, .scroller-1JbKMe{
-    background-color: black;
+    background-color: var(--dark-primary);
 }
 
 :root .searchBar-6Kv8R2 .searchBarComponent-32dTOx{
@@ -46,7 +46,7 @@
 
 /* settings */
 :root .sidebarRegionScroller-3MXcoP{
-    background-color: black;
+    background-color: var(--dark-primary);
 }
 
 /* guild scroller stuff */
@@ -61,7 +61,7 @@
 
 :root .scroller-1Bvpku
 {
-    background-color: #080808;
+    background-color: var(--dark-secondary-alt);
 }
 
 
@@ -69,14 +69,14 @@
 /* background color*/
 :root .bg-h5JY_x, .base-3dtUhz
 {
-    background-color: #142339;
+    background-color: var(--roundmoled-background);
 }
 
 /* user popout and emoji details on click borders*/
 :root .userPopout-xaxa6l, .full-motion .translate-2dAEQ6.didRender-33z1u8
 {
     border:solid;
-    border-color: #1f1f1f;
+    border-color: var(--popout-activeborders);
     border-radius: 7px;
 }
 
