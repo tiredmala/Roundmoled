@@ -1,8 +1,8 @@
 {
     "name": "Roundmoled",
-    "description": "Simple amoled black + rounded corners theme",
+    "description": "Simple AMOLED black + rounded corners theme",
     "version": "1.0",
-    "author": "Malasangre#4444d",
+    "author": "Malasangre#4444",
     "theme": "roundmoledpwc.css",
     "license": "unknown"
 }
