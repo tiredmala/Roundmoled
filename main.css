@@ -1,10 +1,83 @@
 /* member list background color*/
-:root .members-1998pB, .members-1998pB>div
+.members-1998pB, .members-1998pB>div
 {
-    background-color: #000;
+    background-color: black;
+}
+
+/* server channel list */
+.container-3w7J-x, .sidebar-2K8pFh
+{
+    background-color: #050505;
+}
+
+/* rounded corners in channel list and chat-member list */
+.sidebar-2K8pFh.hasNotice-1XRy4h, .platform-win .sidebar-2K8pFh.hasNotice-1XRy4h, .chat-3bRxxu
+{
+    border-radius: 25px;
+}
+
+/* home page and DMs stuff */
+
+.peopleColumn-29fq28, .privateChannels-1nO12o, .scroller-1JbKMe{
+    background-color: black;
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx{
+    margin-top:5px;
+    border-radius: 25px;
+}
+
+.theme-dark .container-1D34oG, .container-1a3EgQ, .applicationStore-1pNvnv{
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+/* settings */
+.sidebarRegionScroller-3MXcoP{
+    background-color: black;
+}
+
+/* guild scroller stuff */
+.guilds-1SWlCJ
+{
+    margin-right: 10px;
+    margin-left: 7px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+}
+
+.scroller-1Bvpku
+{
+    background-color: #080808;
 }
 
 
 
+/* background color*/
+.bg-h5JY_x, .base-3dtUhz
+{
+    background-color: #142339;
+}
+
+/* user popout and emoji details on click borders*/
+.userPopout-xaxa6l, .full-motion .translate-2dAEQ6.didRender-33z1u8
+{
+    border:solid;
+    border-color: #1f1f1f;
+    border-radius: 7px;
+}
+
+
+/* chat margins so they don't touch eachother*/
+.chat-3bRxxu, .sidebar-2K8pFh
+{
+    margin-right: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
 
 
