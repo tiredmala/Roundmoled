@@ -1,5 +1,5 @@
 /* member list background color*/
-.members-1998pB, .members-1998pB>div
+:root .members-1998pB, .members-1998pB>div
 {
     background-color: black;
 }
