@@ -1,6 +1,7 @@
 @import url("https://goose-nest.github.io/GT-RevertRebrand/src/main.css");
 
 :root{
+    --background-tertiary: white;
     --dark-primary: #000000;
     --dark-secondary: #050505;
     --dark-secondary-alt: #080808;
