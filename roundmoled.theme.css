@@ -5,7 +5,7 @@
 * @version 1.0
 */
 
-/* member list */
+/* member list background color*/
 .members-1998pB, .members-1998pB>div
 {
     background-color: #0000;
@@ -70,7 +70,7 @@
     background-color: #142339;
 }
 
-/* user popout and emoji borders*/
+/* user popout and emoji details on click borders*/
 .userPopout-xaxa6l, .full-motion .translate-2dAEQ6.didRender-33z1u8
 {
     border:solid;
@@ -91,7 +91,7 @@
 
 
 
- /* color variables */
+ /* discord color variables */
 
 :root.theme-dark {
     --background-tertiary: #2A2B2F;
