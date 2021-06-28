@@ -6,6 +6,19 @@
     --popout-activeborders: #1f1f1f;
 }
 
+/* Settings userpopout preview fix */
+
+.profileBannerPreview-3_l0Wd{
+    border:solid;
+    border-color:var(--popout-activeborders);
+}
+
+/* Discord's changelog modal */
+
+.theme-dark .root-1gCeng, .theme-dark .footer-2gL1pp
+{
+    background-color: var(--dark-secondary);
+}
 
 /* member list background color*/
 :root .members-1998pB, .members-1998pB>div
@@ -19,10 +32,37 @@
     background-color: var(--dark-secondary);
 }
 
+/* amoledify message search popout */
+.theme-dark .container-3ayLPN{
+    border-radius:15px;
+    background-color:var(--dark-primary);
+    border:solid;
+    border-color: var(--popout-activeborders);
+}
+
+.searchHeader-2XoQg7{
+    background-color: var(--dark-secondary-alt);
+}
+
+.theme-dark .option-96V44q:after{
+        background: linear-gradient(90deg,rgba(21, 21, 21, 0),#000 80%);
+}
+
+.searchResultsWrap-3-pOjs{
+    border-radius:20px;
+    background-color:var(--dark-primary);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.channelName-1JRO3C{
+    background:var(--dark-secondary);
+    border-radius:7px;
+}
 
 
 /* rounded corners in channel list and chat-member list */
-:root .sidebar-2K8pFh.hasNotice-1XRy4h, .platform-win .sidebar-2K8pFh.hasNotice-1XRy4h, .chat-3bRxxu, .platform-win .sidebar-2K8pFh
+:root .sidebar-2K8pFh.hasNotice-1XRy4h, .platform-win .sidebar-2K8pFh.hasNotice-1XRy4h, .chat-3bRxxu, .platform-win .sidebar-2K8pFh, .sidebar-2K8pFh
 {
     border-radius: 25px;
 }
@@ -97,6 +137,82 @@
     margin-right: 10px;
     margin-top:10px;
     margin-bottom:10px;
+}
+
+/* AMOLED-ify join/create server modal */
+
+.theme-light .root-1gCeng
+{
+    border-radius:25px;
+    background-color: var(--dark-primary);
+    overflow:hidden;
+}
+.base-1x0h_U
+{
+    color: #fff;
+}
+.container-UC8Ug1
+{
+    background-color:#18191D;
+}
+
+.container-UC8Ug1:hover
+{
+    transform: scale(1.025);
+    border:solid;
+    border-color:var(--brand-experiment);
+    transition: 250ms ease-in-out;
+}
+
+.input-cIJ7To
+{
+    color:#dcddde;
+}
+
+.colorHeaderSecondary-3Sp3Ft, .colorStandard-2KCXvj, .lookBlank-3eh9lL
+{
+    color: #b9bbbe;
+}
+
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV
+{
+    background-color:var(--brand-experiment);
+    border-radius: 7px;
+}
+
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover
+{
+    transform: scale(1.025);
+    transition: 250ms ease-in-out;
+}
+
+
+.theme-light .footer-2gL1pp
+{
+    background-color: var(--dark-secondary);
+}
+
+.header-3msK0M, .header-1TKi98
+{
+    width:90%;
+    height:100px;
+}
+
+/* AMOLED-ify download app modal */
+.mobileContainer-1x7CLQ, .desktopContainer-spQem0
+{
+    background-color:var(--dark-secondary);
+    border:solid;
+    border-color: var(--popout-activeborders);
+}
+
+/* AMOLED-ify discover section */
+.theme-dark .pageWrapper-1PgVDX{
+    border-radius: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 10px;
+    background-color: var(--dark-primary);
 }
 
 :root.theme-dark 
