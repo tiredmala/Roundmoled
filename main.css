@@ -6,6 +6,77 @@
     --popout-activeborders: #1f1f1f;
 }
 
+
+/* Chat @ and emoji autocomplete */
+.theme-dark .autocomplete-1vrmpx
+{
+    background-color:var(--dark-secondary);
+    border-radius:15px;
+    border:solid;
+    border-color:var(--popout-activeborders);
+}
+
+.theme-dark .selected-1Tbx07
+{
+        background-color:var(--background-secondary-alt);
+        transform: scale(1.015);
+        transition: 250ms ease-in-out;
+}
+
+
+/* Inbox */
+
+.container-enaOkj, .channelHeader-3Gd2xq
+{
+    border-radius:15px;
+    background-color:var(--dark-secondary);
+    
+}
+
+.container-enaOkj, .tutorial-3w5I9h
+{
+    border:solid;
+    border-color:var(--popout-activeborders);
+}
+
+.tutorial-3w5I9h, .header-ykumBX
+{
+    background-color:var(--dark-primary);
+}
+
+/* Pins */
+
+.messagesPopoutWrap-1MQ1bW
+{
+    background-color:var(--dark-secondary-alt);
+    border-radius: 15px;
+    border:solid;
+    border-color:var(--popout-activeborders);
+}
+
+/* Emoji picker big and small */
+
+.contentWrapper-SvZHNd
+{
+    background-color:var(--dark-secondary);
+    border-radius: 15px;
+    border:solid;
+    border-color:var(--popout-activeborders);
+
+}
+
+.unicodeShortcut-15J8Ck, .wrapper-1-Fsb8, .input-1Rv96N, .emojiPicker-3PwZFl
+{
+        background-color:var(--dark-secondary);
+}
+
+.list-donH_Z
+{
+        background-color:var(--dark-secondary);
+        border:solid;
+        border-color:var(--dark-primary);
+}
+
 /* Settings userpopout preview fix */
 
 .profileBannerPreview-3_l0Wd{
