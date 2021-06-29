@@ -229,6 +229,22 @@
     margin-bottom:10px;
 }
 
+/* friends now playing home */
+
+.wrapper-3D2qGf, .theme-dark .separator-XqIyoz, .theme-dark .inset-3sAvek{
+    background-color:var(--dark-secondary-alt);
+}
+
+.section-2gLsgF{
+    border-radius:13px;
+}
+
+.wrapper-3D2qGf:hover{
+        transform: scale(1.025);
+        transition: 250ms ease-in-out;
+}
+
+
 /* Server boost tab settings */
 .guildHeader-3nh5RK, .guildSubscriptionSlots-JPXXvN, .cardWrapper-2Min21
 {
@@ -244,7 +260,6 @@
 {
     background-color:var(--dark-secondary-alt);
 }
-
 
 /* Settings > Appareance preview */
 .preview-2nSL_2
