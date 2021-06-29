@@ -149,6 +149,28 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
+/* invites in chat */
+.wrapper-35wsBm
+{
+    background-color:var(--dark-secondary-alt);
+    border:solid;
+    border-radius:15px;
+    border-color:var(--popout-activeborders);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY
+{
+    background-color:var(--brand-experiment);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover
+{
+    filter:brightness(80%);
+    transform: scale(1.035);
+    transition: 250ms ease-in-out;
+}
+
+
 /* Chat @ and emoji autocomplete */
 .theme-dark .autocomplete-1vrmpx
 {
