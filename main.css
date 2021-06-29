@@ -16,13 +16,6 @@
 }
 
 
-/* Settings > Appareance preview */
-.preview-2nSL_2{
-    background-color: var(--dark-primary);
-}
-
-
-
 /* Chat @ and emoji autocomplete */
 .theme-dark .autocomplete-1vrmpx
 {
@@ -154,6 +147,22 @@
     border-radius: 25px;
 }
 
+/*  follow this channel modal */
+.wrapper-39oAo3{
+    background-color: var(--dark-secondary-alt);
+    border:solid;
+    border-color:var(--popout-activeborders);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover
+{
+    background-color:var(--brand-experiment);
+}
+    
+.clickable-25tGDB .header-2V-4Sw:hover, .selected-31Nl7x .header-2V-4Sw{
+    background-color: #0f10106b;
+}
+
 /* home page and DMs stuff */
 
 .theme-dark .container-1D34oG
@@ -195,6 +204,14 @@
 {
     background-color:var(--dark-secondary-alt);
 }
+
+
+/* Settings > Appareance preview */
+.preview-2nSL_2
+{
+    background-color: var(--dark-primary);
+}
+
 
 /* hypesquad tab settings */
 .membershipDialogHeading-3y8iIr, .membershipDialogHouseDescription-1GaVtg, .membershipDialogHouseName-ezTTJ9, .membershipDialogSwitchHouses-1K8L1U, .membershipDialogSwitchHousesAction-2a3eDg:hover{
