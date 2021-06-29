@@ -9,29 +9,12 @@
 
 /* mala pls remember to organize this shit T_t*/
 
+
 /* Server boost modal */
 .theme-dark .perksModal-fSYqOq
 {
     background-color:var(--dark-primary);
 }
-
-
-/* Chat @ and emoji autocomplete */
-.theme-dark .autocomplete-1vrmpx
-{
-    background-color:var(--dark-secondary);
-    border-radius:15px;
-    border:solid;
-    border-color:var(--popout-activeborders);
-}
-
-.theme-dark .selected-1Tbx07
-{
-        background-color:var(--background-secondary-alt);
-        transform: scale(1.015);
-        transition: 250ms ease-in-out;
-}
-
 
 /* Inbox */
 
@@ -145,6 +128,41 @@
 :root .sidebar-2K8pFh.hasNotice-1XRy4h, .platform-win .sidebar-2K8pFh.hasNotice-1XRy4h, .chat-3bRxxu, .platform-win .sidebar-2K8pFh, .sidebar-2K8pFh
 {
     border-radius: 25px;
+}
+
+/* chat embeds */
+
+.embedFull-2tM8--{
+    background-color:var(--dark-secondary-alt);
+    border-left: 4px solid var(--brand-experiment);
+}
+
+.embedFooterText-28V_Wb{
+    font-size: 0.85rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+.embedThumbnail-2Y84-K
+{
+    border-radius:13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+/* Chat @ and emoji autocomplete */
+.theme-dark .autocomplete-1vrmpx
+{
+    background-color:var(--dark-secondary);
+    border-radius:15px;
+    border:solid;
+    border-color:var(--popout-activeborders);
+}
+
+.theme-dark .selected-1Tbx07
+{
+        background-color:var(--background-secondary-alt);
+        transform: scale(1.015);
+        transition: 250ms ease-in-out;
 }
 
 /*  follow this channel modal */
