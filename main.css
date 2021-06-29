@@ -7,6 +7,22 @@
 }
 
 
+/* mala pls remember to organize this shit T_t*/
+
+/* Server boost modal */
+.theme-dark .perksModal-fSYqOq
+{
+    background-color:var(--dark-primary);
+}
+
+
+/* Settings > Appareance preview */
+.preview-2nSL_2{
+    background-color: var(--dark-primary);
+}
+
+
+
 /* Chat @ and emoji autocomplete */
 .theme-dark .autocomplete-1vrmpx
 {
@@ -164,10 +180,68 @@
     margin-bottom:10px;
 }
 
+/* Server boost tab settings */
+.guildHeader-3nh5RK, .guildSubscriptionSlots-JPXXvN, .cardWrapper-2Min21
+{
+    background-color:var(--dark-secondary);
+}
+
+
+.guild-Hq0WWA{
+    border-radius:13px;
+}
+
+.card-3AyPWq:hover
+{
+    background-color:var(--dark-secondary-alt);
+}
+
+/* hypesquad tab settings */
+.membershipDialogHeading-3y8iIr, .membershipDialogHouseDescription-1GaVtg, .membershipDialogHouseName-ezTTJ9, .membershipDialogSwitchHouses-1K8L1U, .membershipDialogSwitchHousesAction-2a3eDg:hover{
+    filter:invert(100%);
+}
 
 /* settings */
-:root .sidebarRegionScroller-3MXcoP{
+:root .sidebarRegionScroller-3MXcoP
+{
     background-color: var(--dark-primary);
+}
+
+.accountProfileCard-1XCH88{
+    background-color: var(--dark-secondary);
+    border-radius:15px;
+}
+
+.fieldList-21DyL8, .background-1QDuV2
+{
+        background-color: var(--dark-secondary-alt);
+}
+
+.avatar-1uQSZT{
+    border-color: var(--dark-secondary);
+    background-color: var(--dark-secondary);
+}
+
+.background-1QDuV2
+{
+        border:solid;
+        border-color: var(--popout-activeborders)
+}
+
+.item-26Dhrx
+{
+    background-color: var(--dark-secondary);
+    border-radius:10px;
+}
+
+.item-26Dhrx:hover
+{
+        transform: scale(1.015);
+        transition: 250ms ease-in-out;
+}
+
+.radioIconForeground-XwlXQN{
+    color: var(--brand-experiment);
 }
 
 /* guild scroller stuff */
