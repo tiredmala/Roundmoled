@@ -432,17 +432,42 @@
     background-color: var(--dark-primary);
 }
 
+/* misc */
+
+.wrapper-2aW0bm{
+    background-color:var(--dark-secondary-alt);
+    border:solid;
+    border-radius:8px;
+    border-color:var(--popout-activeborders);
+}
+
+/* chat textarea bg */
+
+.scrollableContainer-2NUZem
+{
+    border-radius:15px;
+    background-color:var(--channeltextarea-background);
+    border:solid;
+    border-color:var(--popout-activeborders);
+}
+
+.channelTextArea-rNsIhG{
+    background-color:transparent;
+}
+
 :root.theme-dark 
 {
     --background-tertiary: #2A2B2F;
     --background-secondary: #18191D; /* guild folder border background */
     --background-secondary-alt: var(--dark-primary);; /* change it and see for yourself */
     --background-primary: var(--dark-primary);; /* primary background color, full amoled black  */
-    --channeltextarea-background: #2A2B2F; /* color of your chat bar */
+    --channeltextarea-background: #070b10; /* color of your chat bar */
     --background-accent: var(--brand-experiment); /* discords accent color (default) */
     --background-message-hover: transparent;
     --background-modifier-hover: #292a2c;
     --background-modifier-active: var(--dark-primary);;
     --background-modifier-selected: #2a2a2c;
     --background-floating: var(--dark-primary);; /* userpopout background */
+    --scrollbar-auto-thumb: var(--brand-experiment);
+    --scrollbar-auto-track: #0d0d0d;    
 }
