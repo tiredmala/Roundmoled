@@ -455,6 +455,16 @@
     background-color:transparent;
 }
 
+.replyBar-1YLQ2F, .threadSuggestionBar-2ufK2Z, .attachedBars-tZDmyV
+{
+    /* background-color:var(--dark-primary);*/
+    background-color: var(--dark-secondary-alt);
+    border-radius:25px;
+    margin-bottom:3px;
+}
+
+
+
 :root.theme-dark 
 {
     --background-tertiary: #2A2B2F;
