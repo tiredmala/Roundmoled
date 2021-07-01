@@ -10,6 +10,33 @@
 /* mala pls remember to organize this shit T_t*/
 
 
+
+/* Send image modal chat */
+
+.theme-dark .uploadModal-2ifh8j, .theme-dark .footer-3mqk7D{
+	background-color:var(--dark-primary);
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j{
+	width: 40% !important;
+	height: 40% !important;
+	margin-left: 150px !important;
+	border:solid;
+	border-color: var(--popout-activeborders);
+}
+
+
+/* You're viewing older messages */
+.jumpToPresentBar-G1R9s6{
+    background-color: var(--brand-experiment);
+    border-radius:25px;
+    margin-bottom:10px;
+}
+
+.barButtonBase-2uLO1z{
+margin-top:3px;
+}
+
 /* Server boost modal */
 .theme-dark .perksModal-fSYqOq
 {
