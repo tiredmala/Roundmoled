@@ -1,3 +1,31 @@
+/*                                                                                             .         .                                                                           
+8 888888888o.      ,o888888o.     8 8888      88 b.             8 8 888888888o.            ,8.       ,8.           ,o888888o.     8 8888         8 8888888888   8 888888888o.     
+8 8888    `88.  . 8888     `88.   8 8888      88 888o.          8 8 8888    `^888.        ,888.     ,888.       . 8888     `88.   8 8888         8 8888         8 8888    `^888.  
+8 8888     `88 ,8 8888       `8b  8 8888      88 Y88888o.       8 8 8888        `88.     .`8888.   .`8888.     ,8 8888       `8b  8 8888         8 8888         8 8888        `88.
+8 8888     ,88 88 8888        `8b 8 8888      88 .`Y888888o.    8 8 8888         `88    ,8.`8888. ,8.`8888.    88 8888        `8b 8 8888         8 8888         8 8888         `88
+8 8888.   ,88' 88 8888         88 8 8888      88 8o. `Y888888o. 8 8 8888          88   ,8'8.`8888,8^8.`8888.   88 8888         88 8 8888         8 888888888888 8 8888          88
+8 888888888P'  88 8888         88 8 8888      88 8`Y8o. `Y88888o8 8 8888          88  ,8' `8.`8888' `8.`8888.  88 8888         88 8 8888         8 8888         8 8888          88
+8 8888`8b      88 8888        ,8P 8 8888      88 8   `Y8o. `Y8888 8 8888         ,88 ,8'   `8.`88'   `8.`8888. 88 8888        ,8P 8 8888         8 8888         8 8888         ,88
+8 8888 `8b.    `8 8888       ,8P  ` 8888     ,8P 8      `Y8o. `Y8 8 8888        ,88',8'     `8.`'     `8.`8888.`8 8888       ,8P  8 8888         8 8888         8 8888        ,88'
+8 8888   `8b.   ` 8888     ,88'     8888   ,d8P  8         `Y8o.` 8 8888    ,o88P' ,8'       `8        `8.`8888.` 8888     ,88'   8 8888         8 8888         8 8888    ,o88P'  
+8 8888     `88.    `8888888P'        `Y88888P'   8            `Yo 8 888888888P'   ,8'         `         `8.`8888.  `8888888P'     8 888888888888 8 888888888888 8 888888888P'     
+        __        __   
+       /  |      /  |  
+ _   __`| |      `| |  
+[ \ [  ]| |       | |  
+ \ \/ /_| |_  _  _| |_ 
+  \__/|_____|(_)|_____|
+
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗    ██╗   ██╗ █████╗ ██████╗ ███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝    ██║   ██║██╔══██╗██╔══██╗██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗      ██║   ██║███████║██████╔╝███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝      ╚██╗ ██╔╝██╔══██║██╔══██╗╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗     ╚████╔╝ ██║  ██║██║  ██║███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝      ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝                                                                                 
+***************************************************************************************/
+                                                                                                                             
+                                                                                                                             
 :root{
     --dark-primary: #000000;
     --dark-secondary: #050505;
@@ -6,11 +34,22 @@
     --popout-activeborders: #1f1f1f;
 }
 
+/****************************************************************************************************************
+██╗      █████╗ ████████╗███████╗███████╗████████╗     █████╗ ██████╗ ██████╗ ██╗████████╗██╗ ██████╗ ███╗   ██╗███████╗
+██║     ██╔══██╗╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝    ██╔══██╗██╔══██╗██╔══██╗██║╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝
+██║     ███████║   ██║   █████╗  ███████╗   ██║       ███████║██║  ██║██║  ██║██║   ██║   ██║██║   ██║██╔██╗ ██║███████╗
+██║     ██╔══██║   ██║   ██╔══╝  ╚════██║   ██║       ██╔══██║██║  ██║██║  ██║██║   ██║   ██║██║   ██║██║╚██╗██║╚════██║
+███████╗██║  ██║   ██║   ███████╗███████║   ██║       ██║  ██║██████╔╝██████╔╝██║   ██║   ██║╚██████╔╝██║ ╚████║███████║
+╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚══════╝   ╚═╝       ╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+****************************************************************************************************************/
 
-/* mala pls remember to organize this shit T_t*/
+/* blur background on some modals focus */
+.backdrop-29yll0, .layer-2KE1M9
+{
+    backdrop-filter: blur(5px);
+}
 
 /* Unread pill */
-
 .unread-2lAfLh{
     background-color:var(--brand-experiment);
     box-shadow: rgb(44, 139, 255) 0px 5px 15px;
@@ -30,8 +69,7 @@
 
 .textarea-2r0oV8:focus{
     background-color:var(--dark-secondary);
-    border:solid;
-    border-color:var(--brand-experiment);
+    border: solid var(--brand-experiment);
 }
 
 
@@ -91,10 +129,66 @@
 	border-radius:17px;
 }
 
-.theme-dark .root-1gCeng, .theme-dark .footer-2gL1pp{
+.theme-dark .root-1gCeng, .theme-dark .footer-2gL1pp
+{
    border-radius:max(0px, min(16px, ((100vw - 4px) - 100%) * 9999)) / 16px;
 }
 
+.barButtonBase-2uLO1z
+{
+margin-top:3px;
+}
+
+
+/****************************************************************************************
+ ██████╗██╗  ██╗ █████╗ ████████╗
+██╔════╝██║  ██║██╔══██╗╚══██╔══╝
+██║     ███████║███████║   ██║   
+██║     ██╔══██║██╔══██║   ██║   
+╚██████╗██║  ██║██║  ██║   ██║   
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝ 
+*****************************************************************************************/
+
+
+                                 
+/* chat embeds */
+
+.embedFull-2tM8--{
+    background-color:var(--dark-secondary-alt);
+    border-left: 4px solid var(--brand-experiment);
+}
+
+.embedFooterText-28V_Wb{
+    font-size: 0.85rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+.embedThumbnail-2Y84-K
+{
+    border-radius:13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+/* Emoji picker big and small */
+
+.contentWrapper-SvZHNd
+{
+    background-color:var(--dark-secondary);
+    border-radius: 15px;
+    border: solid var(--popout-activeborders);
+}
+
+.unicodeShortcut-15J8Ck, .wrapper-1-Fsb8, .input-1Rv96N, .emojiPicker-3PwZFl
+{
+        background-color:var(--dark-secondary);
+}
+
+.list-donH_Z
+{
+    background-color:var(--dark-secondary);
+    border: solid var(--dark-primary);
+}
 
 
 /* Send image modal chat */
@@ -107,10 +201,14 @@
 	width: 40% !important;
 	height: 40% !important;
 	margin-left: 150px !important;
-	border:solid;
-	border-color: var(--popout-activeborders);
+	border: solid var(--popout-activeborders);
 }
 
+/* Code blocks in chat */
+.markup-2BOw-j code{
+    border-radius:10px;
+    background-color:var(--dark-secondary-alt);
+}
 
 /* You're viewing older messages */
 .jumpToPresentBar-G1R9s6{
@@ -119,15 +217,6 @@
     margin-bottom:10px;
 }
 
-.barButtonBase-2uLO1z{
-margin-top:3px;
-}
-
-/* Server boost modal */
-.theme-dark .perksModal-fSYqOq
-{
-    background-color:var(--dark-primary);
-}
 
 /* Inbox */
 
@@ -140,8 +229,7 @@ margin-top:3px;
 
 .container-enaOkj, .tutorial-3w5I9h
 {
-    border:solid;
-    border-color:var(--popout-activeborders);
+	border: solid var(--popout-activeborders);
 }
 
 .tutorial-3w5I9h, .header-ykumBX
@@ -155,65 +243,35 @@ margin-top:3px;
 {
     background-color:var(--dark-secondary-alt);
     border-radius: 15px;
-    border:solid;
-    border-color:var(--popout-activeborders);
+    border: solid var(--popout-activeborders);
 }
 
-/* Emoji picker big and small */
-
-.contentWrapper-SvZHNd
+/* invites in chat */
+.wrapper-35wsBm
 {
-    background-color:var(--dark-secondary);
-    border-radius: 15px;
-    border:solid;
-    border-color:var(--popout-activeborders);
-
+    background-color:var(--dark-secondary-alt);
+    border: solid var(--popout-activeborders);
+    border-radius:15px;
 }
 
-.unicodeShortcut-15J8Ck, .wrapper-1-Fsb8, .input-1Rv96N, .emojiPicker-3PwZFl
+.lookFilled-1Gx00P.colorGreen-29iAKY
 {
-        background-color:var(--dark-secondary);
+        background-color:var(--brand-experiment);
+	box-shadow: rgba(44, 139, 255, .23) 0px 5px 15px;
 }
 
-.list-donH_Z
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover
 {
-        background-color:var(--dark-secondary);
-        border:solid;
-        border-color:var(--dark-primary);
-}
-
-/* Settings userpopout preview fix */
-
-.profileBannerPreview-3_l0Wd{
-    border:solid;
-    border-color:var(--popout-activeborders);
-}
-
-/* Discord's changelog modal */
-
-.theme-dark .root-1gCeng, .theme-dark .footer-2gL1pp
-{
-    background-color: var(--dark-secondary);
-}
-
-/* member list background color*/
-:root .members-1998pB, .members-1998pB>div
-{
-    background-color: var(--dark-primary);
-}
-
-/* server channel list */
-:root .container-3w7J-x, .sidebar-2K8pFh
-{
-    background-color: var(--dark-secondary);
+    filter:brightness(80%);
+    transform: scale(1.035);
+    transition: 250ms ease-in-out;
 }
 
 /* amoledify message search popout */
 .theme-dark .container-3ayLPN{
     border-radius:15px;
     background-color:var(--dark-primary);
-    border:solid;
-    border-color: var(--popout-activeborders);
+    border: solid var(--popout-activeborders);
 }
 
 .searchHeader-2XoQg7{
@@ -236,61 +294,12 @@ margin-top:3px;
     border-radius:7px;
 }
 
-
-/* rounded corners in channel list and chat-member list */
-:root .sidebar-2K8pFh.hasNotice-1XRy4h, .platform-win .sidebar-2K8pFh.hasNotice-1XRy4h, .chat-3bRxxu, .platform-win .sidebar-2K8pFh, .sidebar-2K8pFh
-{
-    border-radius: 25px;
-}
-
-/* chat embeds */
-
-.embedFull-2tM8--{
-    background-color:var(--dark-secondary-alt);
-    border-left: 4px solid var(--brand-experiment);
-}
-
-.embedFooterText-28V_Wb{
-    font-size: 0.85rem;
-    line-height: 1rem;
-    font-weight: 500;
-}
-
-.embedThumbnail-2Y84-K
-{
-    border-radius:13px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-}
-
-/* invites in chat */
-.wrapper-35wsBm
-{
-    background-color:var(--dark-secondary-alt);
-    border:solid;
-    border-radius:15px;
-    border-color:var(--popout-activeborders);
-}
-
-.lookFilled-1Gx00P.colorGreen-29iAKY
-{
-    background-color:var(--brand-experiment);
-}
-
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover
-{
-    filter:brightness(80%);
-    transform: scale(1.035);
-    transition: 250ms ease-in-out;
-}
-
-
 /* Chat @ and emoji autocomplete */
 .theme-dark .autocomplete-1vrmpx
 {
     background-color:var(--dark-secondary);
     border-radius:15px;
-    border:solid;
-    border-color:var(--popout-activeborders);
+    border: solid var(--popout-activeborders);
 }
 
 .theme-dark .selected-1Tbx07
@@ -303,8 +312,7 @@ margin-top:3px;
 /*  follow this channel modal */
 .wrapper-39oAo3{
     background-color: var(--dark-secondary-alt);
-    border:solid;
-    border-color:var(--popout-activeborders);
+    border: solid var(--popout-activeborders);
 }
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover
@@ -316,6 +324,13 @@ margin-top:3px;
     background-color: #0f10106b;
 }
 
+/****************************************************************************************
+██╗  ██╗ ██████╗ ███╗   ███╗███████╗
+██║  ██║██╔═══██╗████╗ ████║██╔════╝
+███████║██║   ██║██╔████╔██║█████╗  
+██╔══██║██║   ██║██║╚██╔╝██║██╔══╝  
+██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗
+****************************************************************************************/
 /* home page and DMs stuff */
 
 .theme-dark .container-1D34oG
@@ -357,22 +372,14 @@ margin-top:3px;
         transition: 250ms ease-in-out;
 }
 
-
-/* Server boost tab settings */
-.guildHeader-3nh5RK, .guildSubscriptionSlots-JPXXvN, .cardWrapper-2Min21
-{
-    background-color:var(--dark-secondary);
-}
-
-
-.guild-Hq0WWA{
-    border-radius:13px;
-}
-
-.card-3AyPWq:hover
-{
-    background-color:var(--dark-secondary-alt);
-}
+/****************************************************************************************
+███████╗███████╗████████╗████████╗██╗███╗   ██╗ ██████╗ ███████╗
+██╔════╝██╔════╝╚══██╔══╝╚══██╔══╝██║████╗  ██║██╔════╝ ██╔════╝
+███████╗█████╗     ██║      ██║   ██║██╔██╗ ██║██║  ███╗███████╗
+╚════██║██╔══╝     ██║      ██║   ██║██║╚██╗██║██║   ██║╚════██║
+███████║███████╗   ██║      ██║   ██║██║ ╚████║╚██████╔╝███████║
+╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
+****************************************************************************************/
 
 /* Settings > Appareance preview */
 .preview-2nSL_2
@@ -380,6 +387,18 @@ margin-top:3px;
     background-color: var(--dark-primary);
 }
 
+/* Settings userpopout preview fix */
+
+.profileBannerPreview-3_l0Wd{
+    border: solid var(--popout-activeborders);
+}
+
+/* Discord's changelog modal */
+
+.theme-dark .root-1gCeng, .theme-dark .footer-2gL1pp
+{
+    background-color: var(--dark-secondary);
+}
 
 /* hypesquad tab settings */
 .membershipDialogHeading-3y8iIr, .membershipDialogHouseDescription-1GaVtg, .membershipDialogHouseName-ezTTJ9, .membershipDialogSwitchHouses-1K8L1U, .membershipDialogSwitchHousesAction-2a3eDg:hover{
@@ -409,8 +428,7 @@ margin-top:3px;
 
 .background-1QDuV2
 {
-        border:solid;
-        border-color: var(--popout-activeborders)
+    border: solid var(--popout-activeborders);
 }
 
 .item-26Dhrx
@@ -429,6 +447,39 @@ margin-top:3px;
     color: var(--brand-experiment);
 }
 
+/* Server boost tab settings */
+.guildHeader-3nh5RK, .guildSubscriptionSlots-JPXXvN, .cardWrapper-2Min21
+{
+    background-color:var(--dark-secondary);
+}
+
+.guild-Hq0WWA
+{
+    border-radius:13px;
+}
+
+.card-3AyPWq:hover
+{
+    background-color:var(--dark-secondary-alt);
+}
+
+
+
+/****************************************************************************************
+██████╗  █████╗ ███████╗███████╗
+██╔══██╗██╔══██╗██╔════╝██╔════╝
+██████╔╝███████║███████╗█████╗  
+██╔══██╗██╔══██║╚════██║██╔══╝  
+██████╔╝██║  ██║███████║███████╗
+╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
+****************************************************************************************/                         
+
+/* background color*/
+:root .bg-h5JY_x, .base-3dtUhz
+{
+    background-color: var(--roundmoled-background);
+}
+
 /* guild scroller stuff */
 :root .guilds-1SWlCJ
 {
@@ -443,23 +494,6 @@ margin-top:3px;
 {
     background-color: var(--dark-secondary-alt);
 }
-
-
-
-/* background color*/
-:root .bg-h5JY_x, .base-3dtUhz
-{
-    background-color: var(--roundmoled-background);
-}
-
-/* user popout and emoji details on click borders*/
-:root .userPopout-xaxa6l, .full-motion .translate-2dAEQ6.didRender-33z1u8
-{
-    border:solid;
-    border-color: var(--popout-activeborders);
-    border-radius: 7px;
-}
-
 
 /* chat margins so they don't touch eachother*/
 :root .chat-3bRxxu, .sidebar-2K8pFh
@@ -489,8 +523,7 @@ margin-top:3px;
 .container-UC8Ug1:hover
 {
     transform: scale(1.025);
-    border:solid;
-    border-color:var(--brand-experiment);
+    border: solid var(--brand-experiment);
     transition: 250ms ease-in-out;
 }
 
@@ -532,8 +565,7 @@ margin-top:3px;
 .mobileContainer-1x7CLQ, .desktopContainer-spQem0
 {
     background-color:var(--dark-secondary);
-    border:solid;
-    border-color: var(--popout-activeborders);
+    border: solid var(--popout-activeborders);
 }
 
 /* AMOLED-ify discover section */
@@ -545,13 +577,59 @@ margin-top:3px;
     background-color: var(--dark-primary);
 }
 
-/* misc */
+/* member list background color*/
+:root .members-1998pB, .members-1998pB>div
+{
+    background-color: var(--dark-primary);
+}
+
+/* server channel list */
+:root .container-3w7J-x, .sidebar-2K8pFh
+{
+    background-color: var(--dark-secondary);
+}
+
+/* rounded corners in channel list and chat-member list */
+:root .sidebar-2K8pFh.hasNotice-1XRy4h, .platform-win .sidebar-2K8pFh.hasNotice-1XRy4h, .chat-3bRxxu, .platform-win .sidebar-2K8pFh, .sidebar-2K8pFh
+{
+    border-radius: 25px;
+}
+
+
+/****************************************************************************************       
+███╗   ███╗██╗███████╗ ██████╗
+████╗ ████║██║██╔════╝██╔════╝
+██╔████╔██║██║███████╗██║     
+██║╚██╔╝██║██║╚════██║██║     
+██║ ╚═╝ ██║██║███████║╚██████╗
+╚═╝     ╚═╝╚═╝╚══════╝ ╚═════╝
+****************************************************************************************/
+
+/* user popout and emoji details on click borders*/
+:root .userPopout-xaxa6l, .full-motion .translate-2dAEQ6.didRender-33z1u8
+{
+    border: solid var(--popout-activeborders);
+    border-radius: 7px;
+}
+
+/* Server boost modal */
+.theme-dark .perksModal-fSYqOq
+{
+    background-color:var(--dark-primary);
+}
+
+.toolbar-1t6TWx a {
+  display: none;
+}
+
+::selection {
+    background-color: var(--roundmoled-background);
+}
 
 .wrapper-2aW0bm{
     background-color:var(--dark-secondary-alt);
-    border:solid;
+    border: solid var(--popout-activeborders);
     border-radius:8px;
-    border-color:var(--popout-activeborders);
 }
 
 /* chat textarea bg */
@@ -560,8 +638,7 @@ margin-top:3px;
 {
     border-radius:15px;
     background-color:var(--channeltextarea-background);
-    border:solid;
-    border-color:var(--popout-activeborders);
+    border: solid var(--popout-activeborders);
 }
 
 .channelTextArea-rNsIhG{
@@ -576,7 +653,16 @@ margin-top:3px;
     margin-bottom:3px;
 }
 
+/****************************************************************************************
 
+██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗     ██╗   ██╗ █████╗ ██████╗ ███████╗
+██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗    ██║   ██║██╔══██╗██╔══██╗██╔════╝
+██║  ██║██║███████╗██║     ██║   ██║██████╔╝██║  ██║    ██║   ██║███████║██████╔╝███████╗
+██║  ██║██║╚════██║██║     ██║   ██║██╔══██╗██║  ██║    ╚██╗ ██╔╝██╔══██║██╔══██╗╚════██║
+██████╔╝██║███████║╚██████╗╚██████╔╝██║  ██║██████╔╝     ╚████╔╝ ██║  ██║██║  ██║███████║
+╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝       ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+
+****************************************************************************************/
 
 :root.theme-dark 
 {
