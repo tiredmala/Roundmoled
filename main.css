@@ -30,6 +30,7 @@
     --dark-primary: #000000;
     --dark-secondary: #050505;
     --dark-secondary-alt: #080808;
+    --dark-bright: #0b0b0b;
     --roundmoled-background: #142339;
     --popout-activeborders: #1f1f1f;
 }
@@ -209,6 +210,7 @@ margin-top:3px;
     border-radius:10px;
     background-color:var(--dark-secondary-alt);
 }
+
 
 /* You're viewing older messages */
 .jumpToPresentBar-G1R9s6{
@@ -463,6 +465,114 @@ margin-top:3px;
     background-color:var(--dark-secondary-alt);
 }
 
+/* Server settings */
+/* Overview server settings */
+
+.marginBottom40-2vIwTv{
+    border-radius:13px;
+    padding:15px;
+    background-color:var(--dark-secondary);
+    margin-bottom:20px !important;
+}
+
+
+.css-3vaxre-menu{
+    border-radius:12px;
+    background-color:var(--dark-secondary);
+}
+
+.lighten-2aYaaU{
+    opacity:0.7;
+}
+
+.css-rzbxvl-option:hover{
+    border-radius:10px;
+    background-color:var(--dark-primary);
+    
+}
+
+.css-gvi9bl-control, .css-17e1tep-control{
+    background-color:var(--dark-secondary-alt);
+    border-radius:10px;
+
+}
+.css-gvi9bl-control:hover{
+    border-radius:10px;
+    transform:scale(1.025);
+    background-color:var(--background-tertiary);
+    transition: .25s ease;
+}
+
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6{
+    background-color:var(--brand-experiment);
+    border:none;
+    
+}
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover{
+    box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
+    transition: .3s;
+}
+
+/* Stickers server settings */
+.tierHeaderContent-3t3DoO, .theme-dark .tierHeaderUnlocked-3lTDnP, .theme-dark .tierHeaderLocked-3S508x, .wrapper-18yWki{
+    border-radius:15px;
+    background-color:var(--dark-secondary);
+}
+
+.wrapper-18yWki:hover{
+    border:solid var(--brand-experiment);
+    transition:250ms ease-in-out;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91{
+    border-radius:12px;
+    
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover{
+box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
+}
+
+.theme-dark .tierBody-3aUxuc{
+    border-radius:15px;
+    margin-top:10px;
+    background-color:var(--dark-bright);
+}
+
+/* Integrations server settings */
+.theme-dark .card-o7rAq-{
+    border-radius:15px;
+}
+.theme-dark .card-o7rAq-:hover{
+    background-color:var(--dark-secondary);
+}
+
+/* Roles server settings */
+
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT){
+    border-radius:12px;
+}
+
+.theme-dark .colorPickerCustom-2CWBn2{
+    background-color:var(--dark-primary);
+    width:100%;
+}
+
+.previewContainer-1KQDJS{
+    border-radius:12px;
+}
+
+
+.container-_phMUq{
+    border-radius:15px;
+    background-color:var(--dark-secondary-alt);
+    border:solid var(--popout-activeborders);
+}
+
+.container-_phMUq:hover{
+ background-color:var(--brand-experiment) !important;
+ transition: .25s ease;
+
+}
 
 
 /****************************************************************************************
@@ -489,6 +599,13 @@ margin-top:3px;
     margin-bottom: 10px;
     border-radius: 18px;
 }
+
+/* Active chat from DMS/Member list border on hover or active */
+
+.selected-aXhQR6 .layout-2DM8Md, .clickable-1JJAn8:hover .layout-2DM8Md{
+    border-radius:12px;
+}
+
 
 :root .scroller-1Bvpku
 {
@@ -605,6 +722,53 @@ margin-top:3px;
 ╚═╝     ╚═╝╚═╝╚══════╝ ╚═════╝
 ****************************************************************************************/
 
+/* hide role circle unless hover on role */  
+.roleCircle-3xAZ1j{
+    width:0px;
+    transition: 0.2s ease;
+}
+
+.role-2irmRk:hover > .roleCircle-3xAZ1j{
+    width: 12px;
+}
+/* Better roles by Bowser65#1337*/
+
+.role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  border-radius:8px;
+  border: none;
+  padding: 5px;
+  color:#fff;
+  font-size:12.7px;
+}
+
+.roleCircle-3xAZ1j::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: .38;
+    
+  pointer-events: none;
+}
+
+.footer-1fjuF6 {
+  border-top: none;
+}
+
+
+/* Misc view role as server bar */
+
+.notice-18685F{
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:15px;
+}
+
 /* user popout and emoji details on click borders*/
 :root .userPopout-xaxa6l, .full-motion .translate-2dAEQ6.didRender-33z1u8
 {
@@ -673,9 +837,9 @@ margin-top:3px;
     --channeltextarea-background: #070b10; /* color of your chat bar */
     --background-accent: var(--brand-experiment); /* discords accent color (default) */
     --background-message-hover: transparent;
-    --background-modifier-hover: #292a2c;
-    --background-modifier-active: var(--dark-primary);;
-    --background-modifier-selected: #2a2a2c;
+    --background-modifier-hover: #36559138;
+    --background-modifier-active: #36559138;
+    --background-modifier-selected: #406abb38;
     --background-floating: var(--dark-primary);; /* userpopout background */
     --scrollbar-auto-thumb: var(--brand-experiment);
     --scrollbar-auto-track: #0d0d0d;    
