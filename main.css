@@ -343,6 +343,12 @@ margin-top:3px;
     margin-right: 10px;
 }
 
+/* Home colors */
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover{
+    background-color:var(--brand-experiment);
+}
+
+
 :root .peopleColumn-29fq28, .privateChannels-1nO12o, .scroller-1JbKMe{
     background-color: var(--dark-primary);
 }
@@ -369,7 +375,7 @@ margin-top:3px;
     border-radius:13px;
 }
 
-.wrapper-3D2qGf:hover{
+.wrapper-3D2qGf:hover, .peopleListItem-2nzedh:hover{
         transform: scale(1.025);
         transition: 250ms ease-in-out;
 }
@@ -468,6 +474,7 @@ margin-top:3px;
 /* Server settings */
 /* Overview server settings */
 
+/* needs to be fixed*/
 .marginBottom40-2vIwTv{
     border-radius:13px;
     padding:15px;
@@ -583,6 +590,40 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 ██████╔╝██║  ██║███████║███████╗
 ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
 ****************************************************************************************/                         
+
+/* Quickswitcher */
+
+.quickswitcher-3JagVE,.scroller-zPkAnE{
+    background-color:var(--dark-primary);
+    border-radius:15px;
+}
+
+
+.input-2VB9rf{
+    background-color:var(--dark-secondary);
+    border-radius:15px;
+    bottom:40px;
+    box-shadow: rgba(44, 139, 255, .21) 0px 5px 15px;
+    border:solid var(--brand-experiment);
+}
+
+.scroller-zPkAnE{
+    bottom:20px;
+    
+}
+
+.resultFocused-3aIoYe{
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:12px;
+    transform: scale(1.01);
+    transition: 250ms ease-in-out;
+}
+
+/* make some stuff rounded (chat related)) */ 
+.grid-1nZz7S, .embed-IeVjo6, .embedImage-2W1cML, .imageWrapper-2p5ogY, .theme-dark .invite-18yqGF{
+  border-radius: 10px;
+}
 
 /* background color*/
 :root .bg-h5JY_x, .base-3dtUhz
@@ -712,6 +753,77 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     border-radius: 25px;
 }
 
+/* Voice chat fullscreen SPECIAL THANKS TO DOGGYBOOTSY FROM POWERCORD DISCORD FOR HELPING ME FIGURE OUT HOW TO CENTER SHIT, THANKS A LOT*/
+.tile-2naSqK{
+    border-radius:15px;
+    background-color:var(--dark-primary);
+}
+
+
+.root-2VTZPJ .directionColumn-35P_nr{
+    background-color:var(--dark-secondary);
+    border-radius:15px;
+    padding:20px;
+}
+
+.overlay-1YJlCn .overlayTitle-8IcS01{
+    font-size:16px;   
+    font-weight:bold;
+    border-radius:10px;
+    background-color:var(--dark-bright);
+}
+
+.button-3HqqDX{
+    background:var(--brand-experiment);
+    border-radius:15px;
+}
+
+.button-3HqqDX:hover{
+    background:var(--brand-experiment);
+    box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
+}
+
+.background-ujHpbY{
+    background-color:var(--dark-primary) !important;
+}
+
+.tile-2naSqK:hover .background-ujHpbY{
+    background-color:var(--dark-secondary-alt) !important;
+    transition: background 250ms;
+}
+
+
+.avatarWrapper-29j3CC{
+  position: relative;
+  overflow: hidden;
+  border-radius:255px;
+  border: none;
+}
+
+.border-3dQmSY.speaking-WDn8Wm::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 80px;
+  height: 80px;
+  background: transparent;
+  border:solid var(--brand-experiment);
+  box-shadow: rgba(44, 139, 255, .6) 0px 5px 15px;
+  border-radius:250px;
+}
+
+.tile-2naSqK:hover .border-3dQmSY{
+    border-radius:15px;
+    border:solid var(--roundmoled-background);
+}
+
+.border-3dQmSY.speaking-WDn8Wm{
+    box-shadow:none;
+}
+
+
 
 /****************************************************************************************       
 ███╗   ███╗██╗███████╗ ██████╗
@@ -721,6 +833,17 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 ██║ ╚═╝ ██║██║███████║╚██████╗
 ╚═╝     ╚═╝╚═╝╚══════╝ ╚═════╝
 ****************************************************************************************/
+/* Stream buttons in channel list*/
+.button-1YfofB.buttonColor-7qQbGO:hover, .button-1YfofB .buttonColor-7qQbGO:hover{
+    background-color:var(--brand-experiment);
+}
+
+/* Misc loading popout */
+.loadingPopout-qYljDW
+{
+    border-radius:15px;
+    background-color:var(--dark-bright);
+}
 
 /* hide role circle unless hover on role */  
 .roleCircle-3xAZ1j{
