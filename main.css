@@ -150,8 +150,23 @@ margin-top:3px;
  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝ 
 *****************************************************************************************/
 
+/* View code files / chat */
+.textContainer-C0szpm, .footer-2yA7Ep, .modalTextContainer-ITvzbi{
+    border-radius:10px;
+    background-color:var(--dark-bright);
+}
 
-                                 
+.footer-2yA7Ep{
+    margin-top:5px;
+}
+
+/* Bold urls on hover */
+.markup-2BOw-j a:hover{
+    font-weight:bold;
+    transition:250ms;
+}
+
+
 /* chat embeds */
 
 .embedFull-2tM8--{
@@ -389,6 +404,121 @@ margin-top:3px;
 ╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
 ****************************************************************************************/
 
+/* Connections */
+.connectionOptionsWrapper-3KIj1Z{
+        background-color:var(--dark-bright);
+        border-radius:10px;
+        margin-top:10px;
+}
+.connection-1fbD7X{
+    background:transparent;
+}
+.connectionHeader-2MDqhu{
+    background:var(--dark-secondary);
+    border-radius:10px;
+}
+
+.connectionHeader-2MDqhu:hover{
+    background: var(--dark-bright);
+    transition:background .25s;
+}
+
+/* Server boost modal */
+
+.ctaBar-2UsjF2{
+    background-color:var(--dark-secondary-alt);
+    border-radius:15px;
+}
+
+.theme-dark .perk-2WeBWW{
+    border-radius:15px;
+    background:var(--dark-bright);
+}
+
+.theme-dark .tierBody-16Chc9{
+    border-radius:15px;
+    margin-top:10px;
+    background:var(--dark-bright);
+}
+
+.theme-dark .tierBody-16Chc9:hover{
+    transform:scale(1.05);
+    margin-top:15px;
+    transition:250ms;
+}
+
+.theme-dark .tierHeaderLocked-1s2JJz{
+    border-radius:15px;
+    background-color:var(--dark-primary);
+    box-shadow: rgb(101, 102, 103) 0px 0px 2px;
+}
+
+.theme-dark .tierHeaderLocked-1s2JJz:hover{
+    background-color:#FF73FA;
+    color:#151414;
+    font-weight:bold;
+    transform:scale(1.02);
+    box-shadow: #ff73fa7a 0px 5px 15px;
+    transition:250ms;
+}
+
+.theme-dark .tierLock-3CSxSX{
+    color:var(--roundmoled-background);
+}
+
+.theme-dark .perk-2WeBWW:hover{
+    background:var(--dark-primary);
+    border:solid var(--brand-experiment);
+    transition:background, border 250ms;
+}
+
+/* Nitro */
+.detailsBlock-FoDTGA{
+    background-color:var(--dark-bright);
+    border-radius:15px;
+}
+.banner-3Kac2g{
+    border-radius:15px;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
+    background-color:var(--brand-experiment);
+    border-radius:12px;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover{
+    box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
+    transition:250ms;
+}
+
+.detailsBlock-FoDTGA:hover{
+    background-color:var(--dark-primary);
+    border:solid var(--brand-experiment);
+    transition:all 250ms;
+}
+
+/* Voice & video */
+.lookOutlined-3sRXeN.colorRed-1TFJan{
+    background-color:#9f1c1c;
+    color:white;
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover{
+    box-shadow: rgba(192, 12, 12, .3) 0px 5px 15px;
+    transition:250ms;
+}
+
+.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC{
+    background-color:var(--dark-bright);
+    border-radius:15px;
+}
+    
+    /* red button */
+    .lookFilled-1Gx00P.colorRed-1TFJan:hover{
+        box-shadow: rgba(192, 12, 12, .3) 0px 5px 15px;
+        transition:250ms;
+    }
+
 /* Settings > Appareance preview */
 .preview-2nSL_2
 {
@@ -513,6 +643,7 @@ margin-top:3px;
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6{
     background-color:var(--brand-experiment);
     border:none;
+    border-radius:12px;
     
 }
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover{
@@ -836,6 +967,11 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 /* Stream buttons in channel list*/
 .button-1YfofB.buttonColor-7qQbGO:hover, .button-1YfofB .buttonColor-7qQbGO:hover{
     background-color:var(--brand-experiment);
+}
+
+/* Locked channel badge */
+[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"]{
+    fill:#FAA81A;
 }
 
 /* Misc loading popout */
