@@ -16,6 +16,16 @@
 
 Theme is easy to edit from the main.css file, everything is very self-explanatory
 
-![Preview1](https://cdn.discordapp.com/attachments/851530608487301200/858752992080953364/beautiful3.png)
-![Preview2](https://cdn.discordapp.com/attachments/851530608487301200/858751501811712031/beautiful.png)
-![Preview3](https://cdn.discordapp.com/attachments/851530608487301200/858752989178101800/beautiful2.png)
+![image](https://user-images.githubusercontent.com/86564702/124397086-c4a49100-dcdb-11eb-9e65-9763f3a59f0b.png)
+
+![image](https://user-images.githubusercontent.com/86564702/124396988-04b74400-dcdb-11eb-9e6a-12adde61f4db.png)
+
+![image](https://user-images.githubusercontent.com/86564702/124397055-77c0ba80-dcdb-11eb-939c-26bb2cf577cf.png)
+
+![image](https://user-images.githubusercontent.com/86564702/124397129-12b99480-dcdc-11eb-8c48-546d2fb1dd46.png)
+
+![image](https://user-images.githubusercontent.com/86564702/124397131-164d1b80-dcdc-11eb-8aaa-d0c2e46ece24.png)
+
+![image](https://user-images.githubusercontent.com/86564702/124397065-8c9d4e00-dcdb-11eb-8289-a0234c56f751.png)
+
+![image](https://user-images.githubusercontent.com/86564702/124397078-a8a0ef80-dcdb-11eb-9226-fca4659e1d9f.png)
