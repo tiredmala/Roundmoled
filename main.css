@@ -1029,10 +1029,10 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 }
 
 /* user popout and emoji details on click borders*/
-:root .userPopout-xaxa6l, .full-motion .translate-2dAEQ6.didRender-33z1u8
+.userPopout-xaxa6l
 {
     border: solid var(--popout-activeborders);
-    border-radius: 7px;
+    border-radius: 15px;
 }
 
 /* Server boost modal */
