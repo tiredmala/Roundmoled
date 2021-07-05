@@ -971,8 +971,8 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 
 /* Goosemod store tweak */
 .gm-store-card{
-    background-color:var(--dark-bright);
-    border-radius:15px;
+    background-color:var(--dark-bright) !important;
+    border-radius:15px !important;
 }
 
 .gm-store-card:hover{
@@ -982,7 +982,7 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 }
 
 .gm-store-card > :nth-child(1){
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0 !important;
 }
 
 .container-cMG81i{
