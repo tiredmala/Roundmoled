@@ -220,6 +220,48 @@ margin-top:3px;
 	border: solid var(--popout-activeborders);
 }
 
+/* more upload modal things */
+.uploadModal-2ifh8j, .uploadModal-2ifh8j .footer-3mqk7D{
+    border-radius:15px;
+}
+
+.theme-dark .footer-3mqk7D{
+        box-shadow: none;
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K.expandable-3khGbD .description-2ug5H_{
+position: relative;
+margin-left: 50%;
+transform: translate(-50%);
+}
+
+.theme-dark .checkbox-1ix_J3{
+    background-color:#1a1a1a;
+    border-radius:25px;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC .checkboxWrapper-SkhIWG{
+    background-color:var(--dark-bright);
+    margin-right:140px;
+    padding:7px;
+    border-radius:25px;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC .checkboxWrapper-SkhIWG:hover{
+    background-color:var(--dark-secondary);
+    transition: 250ms ease-in-out;
+}
+
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6{
+    background-color:#af2626;
+    margin-right:10px;
+    border-radius:15px;
+}
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover{
+box-shadow: rgba(255, 44, 44, .3) 0px 5px 15px;
+    transition: box-shadow 250ms;
+}
+
+
 /* Code blocks in chat */
 .markup-2BOw-j code{
     border-radius:10px;
@@ -428,6 +470,11 @@ margin-top:3px;
 .ctaBar-2UsjF2{
     background-color:var(--dark-secondary-alt);
     border-radius:15px;
+}
+
+/* nitro boost modal */
+.tierHeader---JJFb{
+    border-radius: 10px;
 }
 
 .theme-dark .perk-2WeBWW{
@@ -762,6 +809,139 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     background-color: var(--roundmoled-background);
 }
 
+/* Big userpopout update*/
+.connectedAccount-2Jb-Z0{
+    background-color:var(--dark-bright);
+    border-radius:20px;
+}
+
+.connectedAccount-2Jb-Z0:hover{
+    background-color:var(--dark-primary);
+    transition: 250ms;
+}
+
+.connectedAccountName-E1KzaT:hover{
+    font-weight:bold;
+    font-size:110%;
+    transition: 0.2s ease;
+}
+
+[d="m16 7.6c0 .79-1.28 1.38-1.52 2.09s.44 2 0 2.59-1.84.35-2.46.8-.79 1.84-1.54 2.09-1.67-.8-2.47-.8-1.75 1-2.47.8-.92-1.64-1.54-2.09-2-.18-2.46-.8.23-1.84 0-2.59-1.54-1.3-1.54-2.09 1.28-1.38 1.52-2.09-.44-2 0-2.59 1.85-.35 2.48-.8.78-1.84 1.53-2.12 1.67.83 2.47.83 1.75-1 2.47-.8.91 1.64 1.53 2.09 2 .18 2.46.8-.23 1.84 0 2.59 1.54 1.3 1.54 2.09z"]{
+    fill:var(--brand-experiment) !important;
+}
+
+.connectedAccountOpenIcon-E5wGF4{
+    opacity:0;
+    background-color:var(--dark-primary);
+    border:solid var(--popout-activeborders);
+    border-radius:15px;
+    padding:5px;
+    color:#000;
+}
+.connectedAccount-2Jb-Z0:hover .connectedAccountOpenIcon-E5wGF4{
+    opacity:1;
+    background-color:var(--brand-experiment);
+    transition:250ms; 
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY{
+    border-radius:13px;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
+    background-color:var(--brand-experiment);
+    box-shadow: rgba(44, 139, 255, .47) 0px 5px 15px;
+}
+
+.note-367eZJ textarea{
+    background:var(--dark-secondary);
+    border-radius:7px;
+}
+
+.labelContainer-1BLJti{
+    border-radius:10px;
+}
+
+.tabBarItem-3dfX8P{
+    background-color:var(--dark-bright);
+    border-radius:15px;
+    padding:2.5%;
+    font-weight:bold; 
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:15px !Important;  
+}
+
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active{
+border-bottom-color: var(--popout-activeborders);
+}
+
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active{
+    font-size:110%;
+    transition:.2s;
+    border:solid var(--popout-activeborders);
+}
+
+.top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover{
+    border-bottom-color:var(--popout-activeborders);
+    background:var(--dark-secondary);
+    border:solid var(--popout-activeborders);
+    transition:background 250ms;
+}
+
+.customStatusText-2opeSw{
+    text-align:center;
+    background-color:var(--dark-secondary);
+    margin-right:20px;
+    margin-left:10px;
+    border-radius:10px;
+    padding:10px;
+    font-size:105%;
+}
+
+
+/* MUTUAL SERVERS & friends */
+.listScroller-3GmIYj{
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display:flex;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color:var(--dark-primary);
+    padding-bottom: 15px;
+}
+
+.listRow-1iDGel{
+    flex-shrink: 1 !important;
+    flex-grow: 1 !important;
+    align-items: center !important;
+    border-radius: 15px !important;
+    margin-left:20px !important;
+    margin-top: 20px !important;
+    margin-bottom:5px !important;
+    margin-right:5px;
+    padding: 10px 20px 10px 10px !important;
+    width: 240px !important;   
+    background-color:var(--dark-secondary-alt);
+}
+
+.listAvatar-1BbvHX, .listRowContent-i8Bizk{
+    margin-left:15%;
+}
+
+.listAvatar-1BbvHX{
+    transform:scale(1.12);
+   box-shadow: rgba(0, 0, 0, .21) 0px 7px 29px 0px;
+}
+
+.listRow-1iDGel:hover{
+    background-color:var(--dark-primary);
+   box-shadow:rgb(21, 21, 21) 0px 0px 0px 2px;
+    transition:.05s;
+}
+
 /* guild scroller stuff */
 :root .guilds-1SWlCJ
 {
@@ -770,6 +950,21 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-top:10px;
     margin-bottom: 10px;
     border-radius: 18px;
+}
+
+/* Small userpopout change */
+.headerTop-3vNv-a{
+    padding-bottom:10px !Important;
+    padding-top:55px !important;
+    
+}
+
+.headerTopWithCustomStatus-1DHAjX{
+    padding-bottom:12px !important;
+}
+
+.setIdentityLink-1t8Ahd{
+    display:none;
 }
 
 /* Active chat from DMS/Member list border on hover or active */
@@ -988,6 +1183,21 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 .container-cMG81i{
     border-radius:10px !important;
     background-color:var(--dark-bright) !important;
+}
+
+/* Hide HypeSquad badges in userpopout small */
+
+div[aria-label*="HypeSquad Events"]{
+    display:none;
+}
+div[aria-label*="HypeSquad Bravery"]{
+    display:none;
+}
+div[aria-label*="HypeSquad Brilliance"]{
+    display:none;
+}
+div[aria-label*="HypeSquad Balance"]{
+    display:none;
 }
 
 /* Locked channel badge */
