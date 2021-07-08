@@ -1016,6 +1016,12 @@ border-bottom-color: var(--popout-activeborders);
     color:#dcddde;
 }
 
+.content-1LAB8Z .input-cIJ7To, .input--jS-j2{
+    border-radius:7px;
+    background-color:var(--roundmoled-background);
+}
+
+
 .colorHeaderSecondary-3Sp3Ft, .colorStandard-2KCXvj, .lookBlank-3eh9lL
 {
     color: #b9bbbe;
@@ -1033,10 +1039,20 @@ border-bottom-color: var(--popout-activeborders);
     transition: 250ms ease-in-out;
 }
 
+.theme-light .lookLink-9FtZy-.colorPrimary-3b3xI6{
+    width:20%;
+    color:#fff;
+}
 
 .theme-light .footer-2gL1pp
 {
-    background-color: var(--dark-secondary);
+   	background-color: var(--dark-secondary);
+	box-shadow:none !Important;
+}
+
+.sampleLink-2NLvZg{
+    	color:#e0dede;
+	font-size:16px;
 }
 
 .header-3msK0M, .header-1TKi98
