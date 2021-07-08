@@ -1201,6 +1201,59 @@ border-bottom-color: var(--popout-activeborders);
     background-color:var(--dark-bright) !important;
 }
 
+/* BetterDiscord cards change */
+
+.bd-addon-list .bd-addon-card{
+    border-radius: 15px;
+    background-color: var(--dark-bright);
+}
+
+.bd-addon-list .bd-addon-card:hover{
+    background-color:var(--dark-secondary);
+    transition: 250ms;
+}
+
+.bd-addon-list .bd-addon-header{
+    background-color:var(--dark-secondary);
+}
+
+.bd-search-wrapper{
+    border-radius:7px;
+    background-color:var(--roundmoled-background);
+}
+
+.bd-select .bd-select-options{
+    border-radius:12px;
+    background-color:var(--dark-bright);
+}
+
+/* Avatar zoom on hover  Special thanks to Nao Tomori#1166 from PC discord*/
+.avatar-37jOim:hover{
+    transform:scale(1.6);
+    border-radius:5px !important;
+    background-color:var(--roundmoled-background) !important;
+    border:solid;
+    border-color:var(--roundmoled-background) !Important;
+    border-width:0.04cm;
+    margin-top:-25%;
+    margin-left:30%;
+    transition:250ms;
+}
+
+.avatarHintInner-1TvA8u{
+    opacity:0;
+}
+
+.avatar-37jOim:hover .avatarHint-2A3RNb > foreignObject {
+    mask: none !important;
+} 
+
+
+.avatar-37jOim:hover .mask-1l8v16 > foreignObject { 
+    mask: none !important; 
+    border-radius:5px;
+}
+
 /* Hide HypeSquad badges in userpopout small */
 
 div[aria-label*="HypeSquad Events"]{
