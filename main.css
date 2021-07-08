@@ -1346,7 +1346,7 @@ div[aria-label*="HypeSquad Balance"]{
 }
 
 ::selection {
-    background-color: var(--roundmoled-background);
+    background-color:rgb(70, 124, 146) !important;
 }
 
 .wrapper-2aW0bm{
