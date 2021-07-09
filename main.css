@@ -167,6 +167,33 @@ margin-top:3px;
 }
 
 
+/* Attachments in chat */
+
+.attachment-33OFj0, .theme-dark .wrapperAudio-1jDe0Q{
+    border-radius: 15px;
+    background-color:var(--dark-bright);
+    width:150%;
+}
+.attachment-33OFj0:hover, .theme-dark .wrapperAudio-1jDe0Q:hover{
+    background-color:var(--dark-secondary);
+    transition: 250ms;
+}
+
+.audioControls-2HsaU6{
+    border-radius: 25px;
+}
+
+.filenameLinkWrapper-1-14c5, .metadata-3WGS0M, .metadataName-14STf-{
+    font-size:18px;
+    text-align: center;
+}
+
+.filenameLinkWrapper-1-14c5:hover{
+    font-weight:bold;
+    transition: font-weight 250ms;
+}
+
+
 /* chat embeds */
 
 .embedFull-2tM8--{
