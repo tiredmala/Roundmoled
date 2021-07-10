@@ -150,6 +150,12 @@ margin-top:3px;
  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝ 
 *****************************************************************************************/
 
+/* Mentions in chat*/
+.wrapper-3WhCwL{
+    border-radius:25px;
+    padding:0px 5px 0px 5px;
+}
+
 /* View code files / chat */
 .textContainer-C0szpm, .footer-2yA7Ep, .modalTextContainer-ITvzbi{
     border-radius:10px;
