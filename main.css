@@ -919,11 +919,17 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-left:5px;
 }
 
-/* context menu colored buttons*/
+/* context menu */
 #message-actions-edit:hover,
 #message-actions-edit.focused-3afm-j,
+#message-edit:hover,
+#message-edit.focused-3afm-j,
 #message-actions-pin:hover,
-#message-actions-pin.focused-3afm-j{
+#message-actions-pin.focused-3afm-j,
+#message-pin:hover,
+#message-pin.focused-3afm-j,
+#message-add-reaction:hover,
+#message-add-reaction.focused-3afm-j{
     background:#5a79df;
     border-radius:7px;
     transform:scale(1.02);
@@ -935,8 +941,12 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 
 #message-actions-reply:hover,
 #message-actions-reply.focused-3afm-j,
+#message-reply:hover,
+#message-reply.focused-3afm-j,
 #message-actions-mark-unread:hover,
-#message-actions-mark-unread.focused-3afm-j{
+#message-actions-mark-unread.focused-3afm-j,
+#message-mark-unread:hover,
+#message-mark-unread.focused-3afm-j{
     background:#ffe455;
     color:black;
     border-radius:7px;
@@ -949,8 +959,12 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 
 #message-actions-copy-link:hover,
 #message-actions-copy-link.focused-3afm-j,
+#message-copy-link:hover,
+#message-copy-link.focused-3afm-j,
 #message-actions-tts:hover,
-#message-actions-tts.focused-3afm-j{
+#message-actions-tts.focused-3afm-j,
+#message-tts:hover,
+#message-tts.focused-3afm-j{
     background:var(--roundmoled-background);
     border-radius:7px;
     transform:scale(1.02);
@@ -962,8 +976,12 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 
 #message-actions-copy-id:hover,
 #message-actions-copy-id.focused-3afm-j,
+#message-copy-id:hover,
+#message-copy-id.focused-3afm-j,
 #message-actions-delete:hover,
-#message-actions-delete.focused-3afm-j{
+#message-actions-delete.focused-3afm-j,
+#message-delete:hover,
+#message-delete.focused-3afm-j{
     border-radius:7px;
     transform:scale(1.02);
     margin-right:2px;
