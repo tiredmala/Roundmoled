@@ -929,14 +929,31 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 #message-pin:hover,
 #message-pin.focused-3afm-j,
 #message-add-reaction:hover,
-#message-add-reaction.focused-3afm-j{
+#message-add-reaction.focused-3afm-j,
+#user-context-user-profile:hover,
+#user-context-user-profile.focused-3afm-j,
+#user-context-mention:hover,
+#user-context-mention.focused-3afm-j,
+#user-context-message-user:hover,
+#user-context-message-user.focused-3afm-j,
+#user-context-add-friend:hover,
+#user-context-add-friend.focused-3afm-j,
+#channel-context-hide-voice-names:hover,
+#channel-context-hide-voice-names.focused-3afm-j,
+#channel-context-mute-channel:hover,
+#channel-context-mute-channel.focused-3afm-j,
+#message-copy-image:hover,
+#message-copy-image.focused-3afm-j,
+#message-save-image:hover,
+#message-save-image.focused-3afm-j
+{
     background:#5a79df;
     border-radius:7px;
     transform:scale(1.02);
     margin-right:2px;
     font-size:15px;
     transition:150ms;
-    box-shadow: rgba(33, 134, 199, .31) 0px 5px 15px;
+
 }
 
 #message-actions-reply:hover,
@@ -946,15 +963,28 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 #message-actions-mark-unread:hover,
 #message-actions-mark-unread.focused-3afm-j,
 #message-mark-unread:hover,
-#message-mark-unread.focused-3afm-j{
-    background:#ffe455;
+#message-mark-unread.focused-3afm-j,
+#user-context-call:hover,
+#user-context-call.focused-3afm-j,
+#user-context-disable-video:hover,
+#user-context-disable-video.focused-3afm-j,
+#channel-context-edit-channel:hover,
+#channel-context-edit-channel.focused-3afm-j,
+#channel-context-clone-channel:hover,
+#channel-context-clone-channel.focused-3afm-j,
+#channel-context-create-voice-channel:hover,
+#channel-context-create-voice-channel.focused-3afm-j,
+#channel-context-create-text-channel:hover,
+#channel-context-create-text-channel.focused-3afm-j,
+#user-context-close-dm:hover,
+#user-context-close-dm.focused-3afm-j{
+    background:#77ce45;
     color:black;
     border-radius:7px;
     transform:scale(1.02);
     margin-right:2px;
     font-size:15px;
     transition:150ms;
-    box-shadow: rgba(255, 255, 44, .17) 0px 5px 15px;
 }
 
 #message-actions-copy-link:hover,
@@ -964,14 +994,15 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 #message-actions-tts:hover,
 #message-actions-tts.focused-3afm-j,
 #message-tts:hover,
-#message-tts.focused-3afm-j{
-    background:var(--roundmoled-background);
+#message-tts.focused-3afm-j,
+#user-context-change-nickname:hover,
+#user-context-change-nickname.focused-3afm-j{
+    background:#27436d;
     border-radius:7px;
     transform:scale(1.02);
     margin-right:2px;
     font-size:15px;
     transition:150ms;
-    box-shadow: rgba(48, 68, 131, .24) 0px 5px 15px;
 }
 
 #message-actions-copy-id:hover,
@@ -981,15 +1012,90 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 #message-actions-delete:hover,
 #message-actions-delete.focused-3afm-j,
 #message-delete:hover,
-#message-delete.focused-3afm-j{
+#message-delete.focused-3afm-j,
+#user-context-voice-mute:hover,
+#user-context-voice-mute.focused-3afm-j,
+#user-context-voice-deafen:hover,
+#user-context-voice-deafen.focused-3afm-j,
+#user-context-voice-disconnect:hover,
+#user-context-voice-disconnect.focused-3afm-j,
+#user-context-kick:hover,
+#user-context-kick.focused-3afm-j,
+#user-context-ban:hover,
+#user-context-ban.focused-3afm-j,
+#user-context-block:hover,
+#user-context-block.focused-3afm-j,
+#user-context-remove-friend:hover,
+#user-context-remove-friend.focused-3afm-j,
+#channel-context-delete-channel:hover,
+#channel-context-delete-channel.focused-3afm-j,
+#user-context-mute-channel:hover,
+#user-context-mute-channel.focused-3afm-j{
     border-radius:7px;
     transform:scale(1.02);
     margin-right:2px;
     font-size:15px;
     background:#c71a1c;
-    box-shadow: rgba(255, 44, 44, .17) 0px 5px 15px;
     transition:150ms;
 }
+
+#user-context-invite-to-server:hover,
+#user-context-invite-to-server.focused-3afm-j,
+#channel-context-invite-people:hover,
+#channel-context-invite-people.focused-3afm-j{
+    background:#5a8fdf;
+    border-radius:7px;
+    color:rgb(19, 19, 19);
+    transform:scale(1.02);
+    margin-right:2px;
+    font-size:15px;
+    transition:150ms;
+}
+
+#user-context-invite-to-listen:hover,
+#user-context-invite-to-listen.focused-3afm-j,
+#channel-context-invite-to-listen:hover,
+#channel-context-invite-to-listen.focused-3afm-j{
+    background:#1DB954;
+    border-radius:7px;
+    color:rgb(19, 19, 19);
+    transform:scale(1.02);
+    margin-right:2px;
+    font-size:15px;
+    transition:150ms;
+}
+
+#user-context-roles:hover,
+#user-context-roles.focused-3afm-j,
+#user-context-voice-move:hover,
+#user-context-voice-move.focused-3afm-j,
+#user-context-devmode-copy-id:hover,
+#user-context-devmode-copy-id.focused-3afm-j,
+#channel-context-devmode-copy-id:hover,
+#channel-context-devmode-copy-id.focused-3afm-j,
+#channel-context-channel-notifications:hover,
+#channel-context-channel-notifications.focused-3afm-j,
+#message-devmode-copy-id:hover,
+#message-devmode-copy-id.focused-3afm-j,
+#message-copy-native-link:hover,
+#message-copy-native-link.focused-3afm-j,
+#message-open-native-link:hover,
+#message-open-native-link.focused-3afm-j,
+#user-context-mute:hover,
+#user-context-mute.focused-3afm-j,
+#user-context-deafen:hover,
+#user-context-deafen.focused-3afm-j{
+    background:#27436d;
+    border-radius:7px;
+    transform:scale(1.02);
+    margin-right:2px;
+    font-size:15px;
+    transition:150ms;
+}
+
+#user-context-note{
+    display: none;
+    }
 
 /* Context menu colored buttons (guild) on hover */
 #guild-header-popout-invite-people:hover, 
@@ -1002,7 +1108,6 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-right:2px;
     font-size:15px;
     transition:150ms;
-    box-shadow: rgba(255, 44, 255, .17) 0px 5px 15px;
 }
 
 #guild-header-popout-insights:hover, 
@@ -1018,7 +1123,6 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-right:2px;
     font-size:15px;
     transition:150ms;
-    box-shadow: rgba(44, 255, 199, .17) 0px 5px 15px;
 }
 
 #guild-header-popout-create-channel:hover, 
@@ -1037,7 +1141,6 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-right:2px;
     font-size:15px;
     transition:150ms;
-    box-shadow: rgba(255, 255, 44, .17) 0px 5px 15px;
 }
 
 #guild-header-popout-notifications:hover, 
@@ -1056,7 +1159,6 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-right:2px;
     font-size:15px;
     transition:150ms;
-    box-shadow: rgba(33, 134, 199, .31) 0px 5px 15px;
 }
 
 #guild-header-popout-hide-muted-channels:hover, 
@@ -1077,7 +1179,6 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-right:2px;
     font-size:15px;
     transition:150ms;
-    box-shadow: rgba(48, 68, 131, .24) 0px 5px 15px;
 }
 
 #guild-header-popout-premium-subscribe:hover, 
@@ -1087,7 +1188,6 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     transform:scale(1.02);
     margin-right:2px;
     font-size:15px;
-    box-shadow: rgba(255, 44, 150, .45) 0px 5px 15px;
     transition:150ms;
 }
 
@@ -1102,7 +1202,6 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-right:2px;
     font-size:15px;
     background:#c71a1c;
-    box-shadow: rgba(255, 44, 44, .17) 0px 5px 15px;
     transition:150ms;
 }
 
