@@ -1599,6 +1599,16 @@ button.gm-spotify-controls-button{
     background-color:var(--dark-bright);
 }
 
+/*  Spotify betterdiscord  */
+
+.barText-lmqc5O{
+    display:none;
+}
+
+.container-6sXIoE:hover .barText-lmqc5O{
+    display:flex;
+}
+
 /* Avatar zoom on hover  Special thanks to Nao Tomori#1166 from PC discord*/
 .avatar-37jOim:hover{
     transform:scale(1.6);
