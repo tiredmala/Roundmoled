@@ -22,10 +22,13 @@
    ██║   ███████║█████╗  ██╔████╔██║█████╗      ██║   ██║███████║██████╔╝███████╗
    ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝      ╚██╗ ██╔╝██╔══██║██╔══██╗╚════██║
    ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗     ╚████╔╝ ██║  ██║██║  ██║███████║
-   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝      ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝                                                                                 
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝      ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+themevarsp
 ***************************************************************************************/
-                                                                                                                             
-                                                                                                                             
+/*  imports */     
+@import "https://discord-custom-covers.github.io/usrbg/dist/usrbg.css";
+@import "https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css";
+
 :root{
     --dark-primary: #000000;
     --dark-secondary: #050505;
@@ -35,147 +38,6 @@
     --popout-activeborders: #1f1f1f;
 }
 
-/****************************************************************************************************************
-██╗      █████╗ ████████╗███████╗███████╗████████╗     █████╗ ██████╗ ██████╗ ██╗████████╗██╗ ██████╗ ███╗   ██╗███████╗
-██║     ██╔══██╗╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝    ██╔══██╗██╔══██╗██╔══██╗██║╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝
-██║     ███████║   ██║   █████╗  ███████╗   ██║       ███████║██║  ██║██║  ██║██║   ██║   ██║██║   ██║██╔██╗ ██║███████╗
-██║     ██╔══██║   ██║   ██╔══╝  ╚════██║   ██║       ██╔══██║██║  ██║██║  ██║██║   ██║   ██║██║   ██║██║╚██╗██║╚════██║
-███████╗██║  ██║   ██║   ███████╗███████║   ██║       ██║  ██║██████╔╝██████╔╝██║   ██║   ██║╚██████╔╝██║ ╚████║███████║
-╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚══════╝   ╚═╝       ╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
-****************************************************************************************************************/
-
-/* blur background on some modals focus */
-.backdrop-29yll0, .layer-2KE1M9
-{
-    backdrop-filter: blur(5px);
-}
-
-/* Unread pill */
-.unread-2lAfLh{
-    background-color:var(--brand-experiment);
-    box-shadow: rgb(44, 139, 255) 0px 5px 15px;
-    height: 10px;
-    width: 6px;
-}
-
-/* Userpopout spotify button*/
-
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV{
-    background-color:#1DB954;
-    border-radius:10px;
-    box-shadow: rgba(68, 255, 44, .17) 0px 5px 15px;
-}
-
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
-    background-color:rgb(36, 124, 68);
-}
-
-/* Userpopout notes */
-
-.textarea-2r0oV8:focus{
-    background-color:var(--dark-secondary);
-    border: solid var(--brand-experiment);
-}
-
-
-/* Context menu */
-.menu-3sdvDG
-{
-	border-radius:13px;
-	background-color:var(--dark-bright);
-}	
-
-/* Status picker (updated 07/11/21)*/
-
-.layer-v9HyYc{
-    border-radius:15px;
-    margin-bottom:5px;
-}
-
-.status-1fhblQ{
-    text-align:center;
-    font-size:15px;
-}
-
-
-.mask-1qbNWk{
-transform:scale(1.8) !important;
-
-}
-
-#status-picker .description-2L932D{
-    display:none;
-}
-
-#status-picker-online:hover,
-#status-picker-online.focused-3afm-j{
-    background-color:#1f95ca;
-    border-radius:10px;
-    transition:250ms;
-    box-shadow: rgba(44, 164, 255, .17) 0px 5px 15px;
-}
-
-#status-picker-dnd:hover,
-#status-picker-dnd.focused-3afm-j{
-    background-color:#ca1f27;
-    border-radius:10px;
-    transition:250ms;
-    box-shadow: rgba(255, 44, 44, .17) 0px 5px 15px;
-}
-
-#status-picker-idle:hover,
-#status-picker-idle.focused-3afm-j{
-    background-color:#c1c12e;
-    border-radius:10px;
-    transition:250ms;
-    box-shadow: rgba(227, 255, 44, .17) 0px 5px 15px;
-}
-
-#status-picker-invisible:hover,
-#status-picker-invisible.focused-3afm-j{
-    background-color:#161616;
-    border-radius:10px;
-    transition:250ms;
-    box-shadow: rgba(91, 91, 91, .17) 0px 5px 15px;
-}
-
-#status-picker-custom-status:hover, 
-#status-picker-custom-status.focused-3afm-j{
-    background-color:#2247a2;
-    border-radius:10px;
-    transition:250ms;
-    box-shadow: rgba(44, 79, 255, .17) 0px 5px 15px;
-}
-
-
-/* Set custom status modal */
-.lookFilled-22uAsw.select-2fjwPw, .popout-VcNcHB{
-    background-color:var(--dark-primary);
-    border-radius:15px;
-}
-
-.popout-VcNcHB{
-    border-color:transparent;
-}
-
-.option-3KoAJB[aria-selected=true]{
-    background-color:var(--dark-secondary-alt);
-    margin-top:5px;
-    margin-left:10px;
-    margin-right:10px;
-    border-radius:13px;
-}
-
-.button-F9qN4n{
-	background-color:var(--dark-secondary-alt);
-	border-radius:17px;
-}
-
-.barButtonBase-2uLO1z
-{
-margin-top:3px;
-}
-
 
 /****************************************************************************************
  ██████╗██╗  ██╗ █████╗ ████████╗
@@ -183,7 +45,8 @@ margin-top:3px;
 ██║     ███████║███████║   ██║   
 ██║     ██╔══██║██╔══██║   ██║   
 ╚██████╗██║  ██║██║  ██║   ██║   
- ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝ 
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
+ chatsp
 *****************************************************************************************/
 
 /* invite to channel */
@@ -497,6 +360,7 @@ box-shadow: rgba(255, 44, 44, .3) 0px 5px 15px;
 ███████║██║   ██║██╔████╔██║█████╗  
 ██╔══██║██║   ██║██║╚██╔╝██║██╔══╝  
 ██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗
+homesp
 ****************************************************************************************/
 /* home page and DMs stuff */
 
@@ -552,6 +416,7 @@ box-shadow: rgba(255, 44, 44, .3) 0px 5px 15px;
 ╚════██║██╔══╝     ██║      ██║   ██║██║╚██╗██║██║   ██║╚════██║
 ███████║███████╗   ██║      ██║   ██║██║ ╚████║╚██████╔╝███████║
 ╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
+settingsp
 ****************************************************************************************/
 /* Server template */
 .descriptionBox-1EKQKL{
@@ -890,7 +755,99 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 ██╔══██╗██╔══██║╚════██║██╔══╝  
 ██████╔╝██║  ██║███████║███████╗
 ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
-****************************************************************************************/                         
+basesp
+****************************************************************************************/               
+/* Status picker (updated 07/11/21)*/
+
+.layer-v9HyYc{
+    border-radius:15px;
+    margin-bottom:5px;
+}
+
+.status-1fhblQ{
+    text-align:center;
+    font-size:15px;
+}
+
+
+.mask-1qbNWk{
+transform:scale(1.8) !important;
+
+}
+
+#status-picker .description-2L932D{
+    display:none;
+}
+
+#status-picker-online:hover,
+#status-picker-online.focused-3afm-j{
+    background-color:#1f95ca;
+    border-radius:10px;
+    transition:250ms;
+    box-shadow: rgba(44, 164, 255, .17) 0px 5px 15px;
+}
+
+#status-picker-dnd:hover,
+#status-picker-dnd.focused-3afm-j{
+    background-color:#ca1f27;
+    border-radius:10px;
+    transition:250ms;
+    box-shadow: rgba(255, 44, 44, .17) 0px 5px 15px;
+}
+
+#status-picker-idle:hover,
+#status-picker-idle.focused-3afm-j{
+    background-color:#c1c12e;
+    border-radius:10px;
+    transition:250ms;
+    box-shadow: rgba(227, 255, 44, .17) 0px 5px 15px;
+}
+
+#status-picker-invisible:hover,
+#status-picker-invisible.focused-3afm-j{
+    background-color:#161616;
+    border-radius:10px;
+    transition:250ms;
+    box-shadow: rgba(91, 91, 91, .17) 0px 5px 15px;
+}
+
+#status-picker-custom-status:hover, 
+#status-picker-custom-status.focused-3afm-j{
+    background-color:#2247a2;
+    border-radius:10px;
+    transition:250ms;
+    box-shadow: rgba(44, 79, 255, .17) 0px 5px 15px;
+}
+
+
+/* Set custom status modal */
+.lookFilled-22uAsw.select-2fjwPw, .popout-VcNcHB{
+    background-color:var(--dark-primary);
+    border-radius:15px;
+}
+
+.popout-VcNcHB{
+    border-color:transparent;
+}
+
+.option-3KoAJB[aria-selected=true]{
+    background-color:var(--dark-secondary-alt);
+    margin-top:5px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:13px;
+}
+
+.button-F9qN4n{
+	background-color:var(--dark-secondary-alt);
+	border-radius:17px;
+}
+
+.barButtonBase-2uLO1z
+{
+margin-top:3px;
+}
+
 /* Channel background change */
 .modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n{ 
         background: linear-gradient(90deg, rgb(52, 70, 119) 0%, rgba(60, 105, 172, 0.753) 54%, rgba(0, 191, 255, 0.212) 100%);
@@ -922,6 +879,21 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
     margin-top:20px;
     margin-left:5px;
 }
+
+/* Unread pill */
+.unread-2lAfLh{
+    background-color:var(--brand-experiment);
+    box-shadow: rgb(44, 139, 255) 0px 5px 15px;
+    height: 10px;
+    width: 6px;
+}
+
+/* Context menu */
+.menu-3sdvDG
+{
+	border-radius:13px;
+	background-color:var(--dark-bright);
+}	
 
 /* context menu */
 #message-actions-edit:hover,
@@ -1248,6 +1220,26 @@ box-shadow: rgba(44, 139, 255, .3) 0px 5px 15px;
 :root .bg-h5JY_x, .base-3dtUhz
 {
     background-color: var(--roundmoled-background);
+}
+
+
+/* Userpopout spotify button*/
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV{
+    background-color:#1DB954;
+    border-radius:10px;
+    box-shadow: rgba(68, 255, 44, .17) 0px 5px 15px;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+    background-color:rgb(36, 124, 68);
+}
+
+/* Userpopout notes */
+
+.textarea-2r0oV8:focus{
+    background-color:var(--dark-secondary);
+    border: solid var(--brand-experiment);
 }
 
 /* Big userpopout update*/
@@ -1621,11 +1613,23 @@ border-bottom-color: var(--popout-activeborders);
 ██║╚██╔╝██║██║╚════██║██║     
 ██║ ╚═╝ ██║██║███████║╚██████╗
 ╚═╝     ╚═╝╚═╝╚══════╝ ╚═════╝
+miscsp
 ****************************************************************************************/
+/* Loading glow effect */
+.content-1-zrf2{ position: relative; overflow: hidden; border-radius: 8px; border: none; transform:scale(1); background:rgba(0, 0, 0, .85);    transition:250ms; }
+.content-1-zrf2::before{    content:''; position: absolute; top: 38%;   left: 50%;  transform: translate(-50%, -50%);   width: 15%; height: 15%;    box-shadow: rgba(255, 255, 255, .49) 0px 19px 98px, rgba(84, 161, 192, .2) 0px 15px 62px;   }
+
 /* Stream buttons in channel list*/
 .button-1YfofB.buttonColor-7qQbGO:hover, .button-1YfofB .buttonColor-7qQbGO:hover{
     background-color:var(--brand-experiment);
 }
+
+/* blur background on some modals focus */
+.backdrop-29yll0, .layer-2KE1M9
+{
+    backdrop-filter: blur(5px);
+}
+
 
 /* Goosemod store tweak */
 .gm-store-card{
@@ -1869,6 +1873,7 @@ div[aria-label*="HypeSquad Balance"]{
 ██║  ██║██║╚════██║██║     ██║   ██║██╔══██╗██║  ██║    ╚██╗ ██╔╝██╔══██║██╔══██╗╚════██║
 ██████╔╝██║███████║╚██████╗╚██████╔╝██║  ██║██████╔╝     ╚████╔╝ ██║  ██║██║  ██║███████║
 ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝       ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+dcvarsp
 
 ****************************************************************************************/
 
