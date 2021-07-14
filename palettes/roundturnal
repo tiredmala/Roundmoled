@@ -1,0 +1,86 @@
+/*                Roundturnal palette for Roundmoled theme by TiredMala
+***************************************************************************************/
+
+:root {
+    --dark-primary: rgb(30, 30, 40);
+    --dark-secondary: rgb(30, 30, 42);
+    --dark-secondary-alt: rgb(39, 37, 55);
+    --dark-bright: rgb(12, 12, 25);
+    --roundmoled-background: rgb(17, 17, 19);
+    --popout-activeborders: rgb(58, 58, 101);
+}
+
+/* Individual stuff related to the theme itself */
+
+/* Box shadow to some stuff now that background is clearer and it makes sense */
+.grid-1nZz7S,
+.embed-IeVjo6,
+.embedImage-2W1cML,
+.imageWrapper-2p5ogY,
+.theme-dark .invite-18yqGF,
+.accountProfileCard-1XCH88 {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, .07) 0px 19px 38px, rgba(0, 0, 0, .08) 0px 15px 12px;
+}
+
+/* not so rounded corners */
+:root .sidebar-2K8pFh.hasNotice-1XRy4h, .platform-win .sidebar-2K8pFh.hasNotice-1XRy4h, .chat-3bRxxu, .platform-win .sidebar-2K8pFh, .sidebar-2K8pFh
+{
+    border-radius: 20px;
+}
+
+
+/* Colores fix */
+#status-picker-invisible:hover,
+#status-picker-invisible.focused-3afm-j {
+    background-color: #262f36;
+    border-radius: 10px;
+    transition: 250ms;
+    box-shadow: rgba(91, 91, 91, .17) 0px 5px 15px;
+}
+
+.modeSelected-346R90 .content-1x5b-n,
+.modeSelected-346R90:hover .content-1x5b-n {
+    background: linear-gradient(90deg, rgb(52, 70, 119) 0%, rgba(60, 105, 172, .07) 54%, rgba(0, 191, 255, 0) 100%);
+}
+
+#guild-header-popout-hide-muted-channels:hover,
+#guild-header-popout-hide-muted-channels.focused-3afm-j,
+#guild-context-change-nickname:hover,
+#guild-context-change-nickname.focused-3afm-j,
+#guild-header-popout-change-nickname:hover,
+#guild-header-popout-change-nickname.focused-3afm-j,
+#guild-context-hide-muted-channels:hover,
+#guild-context-hide-muted-channels.focused-3afm-j,
+#guild-context-mute-guild:hover,
+#guild-context-mute-guild.focused-3afm-j,
+#guild-context-unmute-guild:hover,
+#guild-context-unmute-guild.focused-3afm-j {
+    background: var(--popout-activeborders);
+}
+
+
+/* discord vars */
+:root.theme-dark {
+    --background-tertiary: rgb(42, 43, 72);
+    --background-secondary: #18191D;
+    /* guild folder border background */
+    --background-secondary-alt: var(--dark-primary);
+    ;
+    /* change it and see for yourself */
+    --background-primary: var(--dark-primary);
+    ;
+    /* primary background color, full amoled black  */
+    --channeltextarea-background: #070b10;
+    /* color of your chat bar */
+    --background-accent: var(--brand-experiment);
+    /* discords accent color (default) */
+    --background-message-hover: transparent;
+    --background-modifier-hover: #36559138;
+    --background-modifier-active: #36559138;
+    --background-modifier-selected: #406abb38;
+    --background-floating: var(--dark-primary);
+    /* userpopout background */
+    --scrollbar-auto-thumb: var(--brand-experiment);
+    --scrollbar-auto-track: var(--roundmoled-background);
+}
