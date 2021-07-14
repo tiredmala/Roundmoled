@@ -400,6 +400,10 @@ box-shadow: rgba(255, 44, 44, .3) 0px 5px 15px;
     background-color:var(--dark-primary);
 }
 
+.messageContainer-gbhlwo{
+    margin-top:5px;
+}
+
 /* Pins */
 
 .messagesPopoutWrap-1MQ1bW
