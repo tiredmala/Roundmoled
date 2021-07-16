@@ -64,6 +64,25 @@
     background-color:var(--popout-activeborders) !important;
 }
 
+/* color fix for search modal */
+
+.theme-dark .option-96V44q:after {
+    background: linear-gradient(
+90deg
+,rgba(21, 21, 21, 0),#0d0d2100 80%);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: var(--dark-bright);
+    transform:scale(1.05);
+    transition:250ms;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+    background: var(--dark-bright);
+    transition:250ms;
+}
+
 /* discord vars */
 :root.theme-dark {
     --background-tertiary: rgb(42, 43, 72);
