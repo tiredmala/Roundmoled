@@ -1624,13 +1624,6 @@ miscsp
     background-color:var(--brand-experiment);
 }
 
-/* blur background on some modals focus */
-.backdrop-29yll0, .layer-2KE1M9
-{
-    backdrop-filter: blur(5px);
-}
-
-
 /* Goosemod store tweak */
 .gm-store-card{
     background-color:var(--dark-bright) !important;
