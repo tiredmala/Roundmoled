@@ -29,7 +29,6 @@
     border-radius: 20px;
 }
 
-
 /* Colores fix */
 #status-picker-invisible:hover,
 #status-picker-invisible.focused-3afm-j {
@@ -59,6 +58,11 @@
     background: var(--popout-activeborders);
 }
 
+/* Pfp zoom on hover color fix */
+.avatar-37jOim:hover{
+    border-color:var(--popout-activeborders) !important;
+    background-color:var(--popout-activeborders) !important;
+}
 
 /* discord vars */
 :root.theme-dark {
