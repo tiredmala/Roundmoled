@@ -8,11 +8,28 @@
 * @version 1.1
 */
 
+/* Base theme file, don't disable */
+
 @import url("https://tiredmala.github.io/Roundmoled/main.css");
 
-/* Alternative color palettes , delete the /⃰ ⃰/below to enable them */ 
+/*                                Optional stuff ( delete the /⃰ ⃰/ on top and below the import to enable them)                     */
+
+
+/*
+@import "https://tiredmala.github.io/Roundmoled/optional/blur.css";
+*/
+
+/*
+@import "https://tiredmala.github.io/Roundmoled/optional/optional2.css";
+*/
+
+/*
+@import "https://tiredmala.github.io/Roundmoled/optional/optional3.css";
+*/
+
+/*                                Alternative color palettes                                                                      */ 
+
 
 /*
 @import "https://tiredmala.github.io/Roundmoled/palettes/roundturnal.css";
 */
-
