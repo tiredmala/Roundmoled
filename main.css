@@ -1332,13 +1332,6 @@ border-bottom-color: var(--popout-activeborders);
     font-size:105%;
 }
 
-/* Center userpopout activity */
-.userProfileActivity-Bnt1p_{
-    left:20%;
-    transform:scale(1.13);
-}
-
-
 /* MUTUAL SERVERS & friends */
 .listScroller-3GmIYj{
     justify-content: space-between;
@@ -1734,21 +1727,6 @@ button.gm-spotify-controls-button{
 .avatar-37jOim:hover .mask-1l8v16 > foreignObject { 
     mask: none !important; 
     border-radius:5px;
-}
-
-/* Hide HypeSquad badges in userpopout small */
-
-div[aria-label*="HypeSquad Events"]{
-    display:none;
-}
-div[aria-label*="HypeSquad Bravery"]{
-    display:none;
-}
-div[aria-label*="HypeSquad Brilliance"]{
-    display:none;
-}
-div[aria-label*="HypeSquad Balance"]{
-    display:none;
 }
 
 /* Locked channel badge */
