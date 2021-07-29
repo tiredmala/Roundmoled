@@ -1370,8 +1370,8 @@ border-bottom-color: var(--popout-activeborders);
 
 /* Activity centered fix for biguserpopout*/
 
+
         .body-r6_QPy .activityProfile-2bJRaP.userProfileActivity-Bnt1p_.newProfileActivityStyles{
-         position:absolute;
          left: 50%;
          top: 10%;
          width: 100%;
@@ -1382,11 +1382,10 @@ border-bottom-color: var(--popout-activeborders);
         .body-r6_QPy .button-2IFFQ4.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.buttonSize-AQY2mE.fullWidth-1orjjo.grow-q77ONN,
         .body-r6_QPy .disabledButtonWrapper-3wH6-b.buttonSize-AQY2mE.grow-q77ONN.fullWidth-1orjjo, 
         .body-r6_QPy .disabledButtonOverlay-2DA5FI, 
-        .body-r6_QPy .button-2IFFQ4.button-38aScr lookFilled-1Gx00P colorGrey-2DXtkV.buttonSize-AQY2mE.fullWidth-1orjjo.grow-q77ONN{
-        position:absolute;
+        .body-r6_QPy .button-2IFFQ4.button-38aScr lookFilled-1Gx00P colorGrey-2DXtkV.buttonSize-AQY2mE.fullWidth-1orjjo.grow-q77ONN
+    {
         left:0%;
-        margin-left:10px;
-        top:95%;
+        top:65%;
         transform: scale(.915);
     }
 
