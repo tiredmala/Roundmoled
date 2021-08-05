@@ -71,6 +71,12 @@ themevarsp
     transition: transform 250ms;
 }
 
+/* @everyone and @here warning */
+.theme-dark .contentWarningPopout-n5JsIs{
+    background-color:var(--dark-primary);
+    border-radius:15px;
+    border:solid var(--popout-activeborders);
+}
 
 /* nsfw chat warning buttons */
 
