@@ -47,6 +47,12 @@ themevarsp
  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
  chatsp
 *****************************************************************************************/
+/* Pin message */
+.message-2qRu38{
+    background-color: var(--dark-secondary-alt) !important;
+    border-radius: 15px;
+    border:solid var(--popout-activeborders);
+}
 
 /* invite to channel */
 .lookOutlined-3sRXeN.colorGreen-29iAKY{
@@ -1510,8 +1516,13 @@ border-bottom-color: var(--popout-activeborders);
 
 .header-3msK0M, .header-1TKi98
 {
-    width:90%;
-    height:100px;
+    	width:90%;
+    	height:5%;
+	overflow: auto scroll;
+}
+
+.header-3msK0M::-webkit-scrollbar, .header-1TKi98::-webkit-scrollbar{
+    display: none;
 }
 
 /* AMOLED-ify download app modal */
