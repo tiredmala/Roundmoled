@@ -54,6 +54,12 @@ themevarsp
     border:solid var(--popout-activeborders);
 }
 
+/* thread popout on channel name hover */
+.popout-APcvZm{
+    background-color: var(--dark-bright);
+    border-radius: 12px;
+    border:solid var(--popout-activeborders);
+}
 /* invite to channel */
 .lookOutlined-3sRXeN.colorGreen-29iAKY{
     background-color:var(--brand-experiment);
