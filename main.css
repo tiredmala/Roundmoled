@@ -1743,9 +1743,10 @@ button.gm-spotify-controls-button{
     border-width:0.04cm;
     margin-top:-25%;
     margin-left:30%;
-    transition:250ms;
 }
-
+.avatar-37jOim{
+transition:250ms;
+}
 .avatarHintInner-1TvA8u{
     opacity:0;
 }
@@ -1753,7 +1754,6 @@ button.gm-spotify-controls-button{
 .avatar-37jOim:hover .avatarHint-2A3RNb > foreignObject {
     mask: none !important;
 } 
-
 
 .avatar-37jOim:hover .mask-1l8v16 > foreignObject { 
     mask: none !important; 
