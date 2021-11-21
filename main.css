@@ -1629,6 +1629,10 @@ border-bottom-color: var(--popout-activeborders);
     box-shadow:none;
 }
 
+/* member list color fix */
+.container-2wlB3z{
+	background-color:var(--dark-primary);
+}
 
 
 /****************************************************************************************       
