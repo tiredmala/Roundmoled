@@ -25,7 +25,8 @@
    ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝      ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
 themevarsp
 ***************************************************************************************/
-/*  imports */     
+/*  imports */
+@import url("https://tiredmala.github.io/animcord/animcordmain.css");
 @import "https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css";
 
 :root{
