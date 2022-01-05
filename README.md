@@ -1,4 +1,4 @@
-# roundmoled.theme.css
+# roundnotmoled.theme.css
 
 ### Rounded corners? YES! TRUE black mode? NO! 
 
@@ -6,11 +6,11 @@
 
 
 > ### Installing for BetterDiscord
-- Download **roundmoled.theme.css** (inside the BetterDiscord folder) 
+- Download **roundnotmoled.theme.css** (inside the BetterDiscord folder) 
 - Paste it into your themes folder (usually found at *AppData\Roaming\BetterDiscord\themes*)
 
 > ### Installing for Powercord
-- cd powercord/src/Powercord/themes && git clone https://github.com/tiredmala/Roundmoled
+- cd powercord/src/Powercord/themes && git clone https://github.com/Rayrsn/RoundNotmoled
 
 
 
