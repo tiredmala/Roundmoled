@@ -7,10 +7,12 @@
 
 > ### Installing for BetterDiscord
 - Download **roundnotmoled.theme.css** (inside the BetterDiscord folder) 
-- Paste it into your themes folder (usually found at *AppData\Roaming\BetterDiscord\themes*)
+- Paste it into your themes folder (usually found at `AppData\Roaming\BetterDiscord\themes` or at `~/.config/BetterDiscord/themes/` if you're on Linux)
 
 > ### Installing for Powercord
-- cd powercord/src/Powercord/themes && git clone https://github.com/Rayrsn/RoundNotmoled
+``` bash 
+cd powercord/src/Powercord/themes && git clone https://github.com/Rayrsn/RoundNotmoled 
+```
 
 
 
