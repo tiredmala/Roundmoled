@@ -1,6 +1,6 @@
 # roundmoled.theme.css
 
-### Rounded corners? YES! TRUE black mode? YES! 
+### Rounded corners? YES! TRUE black mode? NO! 
 
 
 
@@ -16,7 +16,7 @@
 
 Theme is easy to edit from the main.css file, everything is very self-explanatory
 
-![presentation](https://user-images.githubusercontent.com/86564702/126011785-2a1aecdb-411a-4336-9dae-5f7d76f7fe72.png)
+![presentation](https://user-images.githubusercontent.com/25773909/148272556-6ec12d6a-ead3-44e0-9a53-d6a970f3a2e5.png)
 
 ![presentation2](https://user-images.githubusercontent.com/86564702/126011824-aeb5ea84-2cba-48b7-9777-ec121187484d.png)
 
