@@ -1899,4 +1899,6 @@ dcvarsp
     --background-floating: var(--dark-primary);; /* userpopout background */
     --scrollbar-auto-thumb: var(--brand-experiment);
     --scrollbar-auto-track: #0d0d0d;    
+    --scrollbar-thin-thumb: var(--brand-experiment);;
+    /* --scrollbar-thin-track: #1a1b20; */ /*Discord has this disabled by default */
 }
