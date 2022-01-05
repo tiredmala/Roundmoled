@@ -1,7 +1,7 @@
 /**
 * @name RoundNotmoled
 * @author Rayr#6401
-* @description a version of Simple amoled black + rounded corners theme with lighter colors
+* @description a fork of Simple amoled black + rounded corners theme with lighter colors
 * @source https://github.com/Rayrsn/RoundNotmoled
 * @updateUrl https://github.com/Rayrsn/RoundNotmoled/raw/main/BetterDiscord/roundmoled.theme.css
 * @authorId 616702462526488616
@@ -10,26 +10,26 @@
 
 /* Base theme file, don't disable */
 
-@import url("https://tiredmala.github.io/Roundmoled/main.css");
+@import url("https://github.com/Rayrsn/RoundNotmoled/raw/main/main.css");
 
 /*                                Optional stuff ( delete the /⃰ ⃰/ on top and below the import to enable them)                     */
 
 
 /*
-@import "https://tiredmala.github.io/Roundmoled/optional/blur.css";
+@import "https://github.com/Rayrsn/RoundNotmoled/raw/main/optional/blur.css";
 */
 
 /*
-@import "https://tiredmala.github.io/Roundmoled/optional/optional2.css";
+@import "https://github.com/Rayrsn/RoundNotmoled/raw/main/optional/optional2.css";
 */
 
 /*
-@import "https://tiredmala.github.io/Roundmoled/optional/optional3.css";
+@import "https://github.com/Rayrsn/RoundNotmoled/raw/main/optional/optional3.css";
 */
 
 /*                                Alternative color palettes                                                                      */ 
 
 
 /*
-@import "https://tiredmala.github.io/Roundmoled/palettes/roundturnal.css";
+@import "https://github.com/Rayrsn/RoundNotmoled/raw/main/palettes/roundturnal.css";
 */
