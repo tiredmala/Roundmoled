@@ -1892,10 +1892,10 @@ dcvarsp
 :root.theme-dark 
 {
     --background-tertiary: #2A2B2F;
-    --background-secondary: #22232a; /* guild folder border background */
+    --background-secondary: #18191D; /* guild folder border background */
     --background-secondary-alt: var(--dark-primary);; /* change it and see for yourself */
     --background-primary: var(--dark-primary);; /* primary background color, full amoled black  */
-    --channeltextarea-background: #1a1b20; /* color of your chat bar */
+    --channeltextarea-background: #070b10; /* color of your chat bar */
     --background-accent: var(--brand-experiment); /* discords accent color (default) */
     --background-message-hover: transparent;
     --background-modifier-hover: #36559138;
@@ -1903,7 +1903,7 @@ dcvarsp
     --background-modifier-selected: #406abb38;
     --background-floating: var(--dark-primary);; /* userpopout background */
     --scrollbar-auto-thumb: var(--brand-experiment);
-    --scrollbar-auto-track: #1a1b20;    
+    --scrollbar-auto-track: #0d0d0d;    
     --scrollbar-thin-thumb: var(--brand-experiment);;
     /* --scrollbar-thin-track: #1a1b20; */ /*Discord has this disabled by default */
 }
