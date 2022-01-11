@@ -1,24 +1,24 @@
 /**
-* @name RoundNotmoled
-* @author Rayr#6401
-* @description a fork of Simple amoled black + rounded corners theme with lighter colors
-* @version 2.0
+* @name Roundmoled
+* @author malasangre#3502
+* @description Simple amoled black + rounded corners theme
+* @version 1.2
 */
 
 /* Base theme file, don't disable */
 
-@import url("https://github.com/Rayrsn/RoundNotmoled/raw/main/main.css");
+@import url("https://tiredmala.github.io/Roundmoled/main.css");
 
 /*                                Optional stuff ( delete the /⃰ ⃰/ on top and below the import to enable them)                     */
 
 
 /*
-@import "https://github.com/Rayrsn/RoundNotmoled/raw/main/optional/blur.css";
+@import "https://tiredmala.github.io/Roundmoled/optional/blur.css";
 */
 
 /*                                Alternative color palettes                                                                      */ 
 
 
 /*
-@import "https://github.com/Rayrsn/RoundNotmoled/raw/main/palettes/roundturnal.css";
+@import "https://tiredmala.github.io/Roundmoled/palettes/roundturnal.css";
 */
