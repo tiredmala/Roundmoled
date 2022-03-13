@@ -396,7 +396,7 @@ homesp
 }
 
 
-:root .peopleColumn-1wMU14, .privateChannels-oVe7HL, .scroller-1JbKMe{
+:root .peopleColumn-1wMU14, .privateChannels-oVe7HL, .scroller-1JbKMe, .scroller-WSmht3{
     background-color: var(--dark-primary);
 }
 
@@ -1548,10 +1548,15 @@ border-bottom-color: var(--popout-activeborders);
 }
 
 /* server channel list */
-:root .container-1NXEtd, .sidebar-1tnWFu , .scroller-1ox3I2
+:root .container-1NXEtd, .sidebar-1tnWFu
 {
     background-color: var(--dark-secondary);
     border-radius: 10px;
+}
+
+.scroller-1ox3I2
+{
+    border-radius:10px;
 }
 
 /* rounded corners in channel list and chat-member list */
