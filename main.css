@@ -1230,13 +1230,13 @@ margin-top:3px;
 
 /* Userpopout spotify button*/
 
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV{
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B{
     background-color:#1DB954;
     border-radius:10px;
     box-shadow: rgba(68, 255, 44, .17) 0px 5px 15px;
 }
 
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:disabled {
     background-color:rgb(36, 124, 68);
 }
 
@@ -1363,6 +1363,9 @@ border-bottom-color: var(--popout-activeborders);
     width: 240px !important;   
     background-color:var(--dark-secondary-alt);
 }
+.listRow-2nO1T6{
+    transition: background-color 250ms ease-in-out !important;
+}
 
 .listAvatar-2bU5Uh, .listRowContent-PEmSWj{
     margin-left:15%;
@@ -1375,8 +1378,7 @@ border-bottom-color: var(--popout-activeborders);
 
 .listRow-2nO1T6:hover{
     background-color:var(--dark-primary);
-   box-shadow:rgb(21, 21, 21) 0px 0px 0px 2px;
-    transition:.05s;
+    box-shadow:rgb(21, 21, 21) 0px 0px 0px 2px;
 }
 
 /* Activity centered fix for biguserpopout*/
