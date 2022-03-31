@@ -6,7 +6,7 @@
     --dark-secondary: rgb(30, 30, 42);
     --dark-secondary-alt: rgb(39, 37, 55);
     --dark-bright: rgb(12, 12, 25);
-    --roundmoled-background: rgb(17, 17, 19);
+    --roundmoled-background: rgb(105, 7, 196);
     --popout-activeborders: rgb(58, 58, 101);
 }
 
@@ -32,7 +32,7 @@
 /* Colores fix */
 #status-picker-invisible:hover,
 #status-picker-invisible.focused-3afm-j {
-    background-color: #262f36;
+    background-color: #6907c4;
     border-radius: 10px;
     transition: 250ms;
     box-shadow: rgba(91, 91, 91, .17) 0px 5px 15px;
@@ -85,7 +85,7 @@
 
 /* discord vars */
 :root.theme-dark {
-    --background-tertiary: rgb(42, 43, 72);
+    --background-tertiary: rgb(105, 7, 196);
     --background-secondary: #18191D;
     /* guild folder border background */
     --background-secondary-alt: var(--dark-primary);
@@ -94,7 +94,7 @@
     --background-primary: var(--dark-primary);
     ;
     /* primary background color, full amoled black  */
-    --channeltextarea-background: #070b10;
+    --channeltextarea-background: #6907c4;
     /* color of your chat bar */
     --background-accent: var(--brand-experiment);
     /* discords accent color (default) */
