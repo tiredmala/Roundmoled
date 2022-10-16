@@ -9,12 +9,12 @@
 8 8888 `8b.    `8 8888       ,8P  ` 8888     ,8P 8      `Y8o. `Y8 8 8888        ,88',8'     `8.`'     `8.`8888.`8 8888       ,8P  8 8888         8 8888         8 8888        ,88'
 8 8888   `8b.   ` 8888     ,88'     8888   ,d8P  8         `Y8o.` 8 8888    ,o88P' ,8'       `8        `8.`8888.` 8888     ,88'   8 8888         8 8888         8 8888    ,o88P'  
 8 8888     `88.    `8888888P'        `Y88888P'   8            `Yo 8 888888888P'   ,8'         `         `8.`8888.  `8888888P'     8 888888888888 8 888888888888 8 888888888P'     
-        __        _____   
-       /  |      / ___ `. 
- _   __`| |     |_/___) | 
-[ \ [  ]| |      .'____.' 
- \ \/ /_| |_  _ / /_____  
-  \__/|_____|(_)|_______| 
+        __       ______   
+       /  |     / ____ `. 
+ _   __`| |     `'  __) | 
+[ \ [  ]| |     _  |__ '. 
+ \ \/ /_| |_  _| \____) | 
+  \__/|_____|(_)\______.' 
 
 
 ████████╗██╗  ██╗███████╗███╗   ███╗███████╗    ██╗   ██╗ █████╗ ██████╗ ███████╗
@@ -1899,7 +1899,7 @@ dcvarsp
 :root.theme-dark 
 {
     --background-tertiary: #2A2B2F;
-    --background-secondary: #18191D; /* guild folder border background */
+    --background-secondary: #000000; /* guild folder border background */
     --background-secondary-alt: var(--dark-primary);; /* change it and see for yourself */
     --background-primary: var(--dark-primary);; /* primary background color, full amoled black  */
     --channeltextarea-background: #070b10; /* color of your chat bar */
