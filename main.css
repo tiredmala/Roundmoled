@@ -1899,7 +1899,7 @@ dcvarsp
 :root.theme-dark 
 {
     --background-tertiary: #2A2B2F;
-    --background-secondary: #18191D; /* guild folder border background */
+    --background-secondary: #000000; /* guild folder border background */
     --background-secondary-alt: var(--dark-primary);; /* change it and see for yourself */
     --background-primary: var(--dark-primary);; /* primary background color, full amoled black  */
     --channeltextarea-background: #070b10; /* color of your chat bar */
